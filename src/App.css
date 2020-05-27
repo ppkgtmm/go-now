@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap');
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 img{
  height: 400px;
- width: 300px;
+ max-width: 300px;
 }
 h3{
   padding-top: 10px;
@@ -16,9 +20,7 @@ p{
   color: #373b3b;
 }
 .sidebar.pure-u-1.pure-u-md-1-4{
-  background-attachment:scroll;
-background-clip:border-box;
-background-color: #222222;
+background-color: rgb(49, 49, 49);
 background-image:none;
 background-origin:padding-box;
 background-size:auto;
@@ -27,12 +29,12 @@ box-sizing:border-box;
 color:rgb(255, 255, 255);
 display:block;
 font-family:sans-serif;
-height:auto;
 letter-spacing:normal;
-position:fixed;
+position: fixed;
 text-rendering:auto;
 top:0;
-width:247px;
+left: 0;
+max-width:16rem;
 -webkit-box-direction:normal;
 }
 .header{
@@ -57,31 +59,30 @@ display:block;
 font-family: 'Noto Sans JP', sans-serif;
 font-size:45px;
 font-weight:700;
-height:72px;
 letter-spacing:normal;
 text-align:right;
 text-rendering:auto;
 text-transform:uppercase;
-width:184px;
 -webkit-box-direction:normal;
 }
 .brand-title{
-  color: #f2f4f6;
+  color: #e8eaeb;
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 .brand-tagline{
   box-sizing:border-box;
-color: #95d3e9;
+color: #a2ddd5;
 display:block;
 font-family: 'Noto Sans JP', sans-serif;
 font-size:25px;
-font-weight:200;
-height:82px;
+font-weight:100;
 letter-spacing:normal;
-padding-top: 50px;
 text-align:right;
 text-rendering:auto;
-width:184px;
 -webkit-box-direction:normal;
+margin-bottom: 20px;
 }
 .nav{
   box-sizing:border-box;
@@ -91,10 +92,8 @@ font-family:sans-serif;
 height:94px;
 letter-spacing:normal;
 margin-top: 5px;
-padding-top: 30px;
 text-align:right;
 text-rendering:auto;
-width:184px;
 -webkit-box-direction:normal;
 }
 .nav-list{
@@ -102,13 +101,13 @@ box-sizing:border-box;
 color:rgb(255, 255, 255);
 display:block;
 font-family:sans-serif;
-height:94px;
+/* height:94px; */
 letter-spacing:normal;
 list-style: none outside none;
 padding-right:24px;
 text-align:right;
 text-rendering:auto;
-width:184px;
+/* width:184px; */
 -webkit-box-direction:normal;
 }
 .nav-item{
@@ -181,15 +180,15 @@ display:block;
 font-family:sans-serif;
 letter-spacing:normal;
 text-rendering:auto;
- width:300px;
 -webkit-box-direction:normal;
-  margin-left: 10px;
+  width:98%;
+  margin-right: 0.2rem;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 .up-nav{
-  background-color: #222222;
-  height:70px;
+  background-color: rgb(49, 49, 49);;
+  max-height:60px;
   line-height:50px;
   padding: 10px;
   position:fixed;
@@ -224,12 +223,13 @@ button{
 } 
 
 .Cards{
-  margin-top: 100px;
+  margin-top: 8rem;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 50px;
-  margin-left: 410px;
-  width: 1000px;
+  margin-bottom: 3rem;
+  position:relative;
+  margin-left:20rem;
+  max-width: calc(100% - 20rem);
 }
 
 .card{
@@ -241,16 +241,16 @@ button{
   font-weight:400;
   height:auto;
   line-height:25px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  position:relative;
-  width: 320px;
+  margin-bottom: 2rem;
+  margin-right:1rem;
+  max-width: 300px;
   transition-delay:0s, 0s;
   transition-duration:0.25s, 0.25s;
   transition-property:box-shadow, -webkit-box-shadow;
   transition-timing-function:ease, ease;
   -webkit-font-smoothing:antialiased;
   border-radius:0.25rem;
+  overflow: hidden;
 }
 
 .popup-content{
@@ -280,25 +280,26 @@ button{
   width: 600px;
 }
 .text{
-  margin-left: 20px;
+  margin-left: 1rem;
 }
 .rand-link {
   text-decoration: none;
   font-family: sans-serif;
   text-align: center;
-  font-size:16px;
+  font-size:20px;
   font-weight:400;
   color: #f2f4f6;
   cursor: pointer;
   display: inline-block;
   outline: none;
-  padding-left:10px;
-  padding-right:10px;
-  margin-top: -6px;
-  border: 1px #f2f4f6 solid;
+  padding-left:1rem;
+  padding-right:1rem;
+  line-height:2.5rem;
+  background-color:#f2f4f61c;
   border-radius: 3px;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
+
 
 .random{
   margin-left: 300px;

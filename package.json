@@ -2,7 +2,7 @@
   "name": "travel",
   "version": "0.1.0",
   "private": true,
-   "engines": {
+  "engines": {
     "npm": "6.13.4",
     "node": "12.16.0"
   },
