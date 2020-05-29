@@ -34,8 +34,11 @@ position: fixed;
 text-rendering:auto;
 top:0;
 left: 0;
-max-width:16rem;
+width:16rem;
+z-index: 999;
 -webkit-box-direction:normal;
+overflow-x: hidden;
+height: 100%;
 }
 .header{
   box-sizing:border-box;
@@ -101,13 +104,11 @@ box-sizing:border-box;
 color:rgb(255, 255, 255);
 display:block;
 font-family:sans-serif;
-/* height:94px; */
 letter-spacing:normal;
 list-style: none outside none;
 padding-right:24px;
 text-align:right;
 text-rendering:auto;
-/* width:184px; */
 -webkit-box-direction:normal;
 }
 .nav-item{
@@ -118,9 +119,7 @@ font-family:sans-serif;
 height:48px;
 letter-spacing:normal;
 list-style: none outside none;
-text-align:right;
 text-rendering:auto;
-width:72px;
 margin-top: 5px;
 word-spacing:0;
 zoom:1;
@@ -183,24 +182,20 @@ text-rendering:auto;
 -webkit-box-direction:normal;
   width:98%;
   margin-right: 0.2rem;
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 .up-nav{
-  background-color: rgb(49, 49, 49);;
-  max-height:60px;
-  line-height:50px;
+  background-color: rgb(49, 49, 49);
   padding: 10px;
   position:fixed;
+  max-height: 60px;
   top:0;
   overflow: hidden;
   width: 100%;
-  z-index: 9999;
+  z-index: 333;
 }
-.up-nav-items{
-  display: flex;
-  text-align: right;
-
+#side-bar-toggle{
+  float: right;
 }
 button{
   text-decoration: none;
@@ -218,18 +213,34 @@ button{
   outline: none;
 }
 
-.items{
+.items.right{
+  position: relative;
   float: right;
 } 
+
+.side-bar.open img{
+  width:15px;
+  height:15px;
+}
+.side-bar{
+  position: fixed;
+  z-index: 1000;
+  top: 0.25rem;
+  left:1rem;
+  outline: none;
+  overflow: hidden;
+  height: 2.2rem;
+  background-color: transparent;
+}
 
 .Cards{
   margin-top: 8rem;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  position:relative;
-  margin-left:20rem;
-  max-width: calc(100% - 20rem);
+  margin-left:4rem;
+  max-width: calc(100% - 4rem);
+  transition: 0.5s;
 }
 
 .card{
@@ -292,8 +303,8 @@ button{
   cursor: pointer;
   display: inline-block;
   outline: none;
-  padding-left:1rem;
-  padding-right:1rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
   line-height:2.5rem;
   background-color:#f2f4f61c;
   border-radius: 3px;
