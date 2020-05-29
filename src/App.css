@@ -192,7 +192,7 @@ text-rendering:auto;
   top:0;
   overflow: hidden;
   width: 100%;
-  z-index: 333;
+  z-index: 33;
 }
 #side-bar-toggle{
   float: right;
@@ -234,15 +234,22 @@ button{
 }
 
 .Cards{
-  margin-top: 8rem;
+  position: relative;
+  margin-top: 100px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   margin-bottom: 3rem;
-  margin-left:4rem;
-  max-width: calc(100% - 4rem);
   transition: 0.5s;
+  justify-content: center;
+  align-self: flex-start;
+  flex-basis: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
-
+.Season{
+  display: block;
+}
 .card{
   background-color: rgb(255, 255, 255);
   box-shadow: 0 .5rem 0.5rem rgba(0,0,0,.10);
@@ -290,7 +297,7 @@ button{
 .random{
   width: 600px;
 }
-.text{
+.text,.data{
   margin-left: 1rem;
 }
 .rand-link {
@@ -320,22 +327,26 @@ button{
 }
 
 .random-content {
-  display: inline;
+  margin-bottom:15px;
 }
 .rand-button{
   text-decoration: none;
-  position: absolute;
-  right:16px;
   font-family: sans-serif;
-  font-size:18px;
-  font-weight:400;
-  background-color: #ffffff;
-  border: solid #222222 1px;
-  border-radius: 3px;
-  color: #222222;
-  padding: 10px;
-  cursor: pointer;
   text-align: center;
+  font-size:20px;
+  font-weight:400;
+  color: #f2f4f6;
+  cursor: pointer;
   display: inline-block;
+  outline: none;
+  padding-left:1rem;
+  padding-right:1rem;
+  background-color:#f2f4f61c;
+  border-radius: 3px;
+  text-transform: lowercase;
+  position: absolute;
+  top:0;
+  right: 0.5rem;
+  cursor: pointer;
   outline: none;
 }

@@ -14,7 +14,8 @@ class Randomize extends React.Component{
         })
         this.state = {
             index : (Math.floor(Math.random() * Math.floor(info.length+2)))%info.length,
-            data : info
+            data : info,
+            sideActive : false
         }
         this.handleRandom = this.handleRandom.bind(this)
     }
@@ -22,17 +23,30 @@ class Randomize extends React.Component{
         this.setState ({
             index : (Math.floor(Math.random() * Math.floor(this.state.data.length)))%this.state.data.length})
     }
+    open = () => {
+        this.setState({ 
+            sideActive : true
+        });
+        // console.log(this.state.sideActive);
+    }
+    close = () => {
+        this.setState({ 
+            sideActive : false
+        });
+    }
     render(){
         return(
             <div className="randomize">
-                <SideBar />
-                <div className="up-nav">
-                </div>
-                <div className="Cards" style={{width:1000,display:"block"}}>
-                    <div className="card" style={{width:1000,padding:20}}>
-                            <button className="rand-button"  onClick={this.handleRandom}>
+                <div className="up-nav" style={{height:50}}>
+                <button className="rand-button"  onClick={this.handleRandom}>
                                 Random
                             </button>
+                </div>
+                {!this.state.sideActive?  <button className="side-bar open" onClick={this.open}> <img src={require("./img/open-menu.png")}/></button> 
+                    : <button className="side-bar close" onClick= {this.close}>X</button>}
+                    {this.state.sideActive ? <SideBar/> : ''}
+                <div className="Cards">
+                    <div className="card">
                         <RandomContent name={this.state.data[this.state.index].name} content={this.state.data[this.state.index].content} url={this.state.data[this.state.index].imgPath}/>
                     </div>
                 </div>

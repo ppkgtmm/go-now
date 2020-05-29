@@ -33,9 +33,8 @@ class Season extends React.Component{
                     {!this.state.sideActive?  <button className="side-bar open" onClick={this.open}> <img src={require("./img/open-menu.png")}/></button> 
                     : <button className="side-bar close" onClick= {this.close}>X</button>}
                     {this.state.sideActive ? <SideBar/> : ''}
-                    <div className="container">
-                    <div className="Cards">
-                        {
+                    <div className="Cards"> 
+                    {
                             data[this.props.season].map((info,i)=>{
                                 return (
                                     <div className="card" key={i}>
@@ -44,7 +43,6 @@ class Season extends React.Component{
                                 );
                             })}
                     </div>
-                </div>
                 </div>
 
 
