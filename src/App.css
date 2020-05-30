@@ -47,7 +47,7 @@ display:block;
 font-family: 'Noto Sans JP', sans-serif;
 height:248px;
 letter-spacing:normal;
-margin: 60px 32px 0;
+margin: 55px 32px 0;
 text-align:right;
 text-rendering:auto;
 top:auto;
@@ -242,10 +242,7 @@ button{
   margin-bottom: 3rem;
   transition: 0.5s;
   justify-content: center;
-  align-self: flex-start;
   flex-basis: fit-content;
-  margin-left: auto;
-  margin-right: auto;
 }
 .Season{
   display: block;
@@ -264,7 +261,6 @@ button{
   max-width: 300px;
   transition-delay:0s, 0s;
   transition-duration:0.25s, 0.25s;
-  transition-property:box-shadow, -webkit-box-shadow;
   transition-timing-function:ease, ease;
   -webkit-font-smoothing:antialiased;
   border-radius:0.25rem;
