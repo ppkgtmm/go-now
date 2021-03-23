@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button{
+    outline: none !important;
+}
+img{
+    max-height: 400px;
+}
