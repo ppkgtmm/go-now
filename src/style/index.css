@@ -1,7 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap');
+h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+    color: #212121;
+}
 button{
     outline: none !important;
 }
