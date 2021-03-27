@@ -1,15 +1,13 @@
 import React from "react"
-import AButton from "./AButton"
+import Button from "./Button"
 function Buttons(){
         return(
-                <nav className="nav">
-                    <ul className="nav-list">
-                        <AButton link = "spring" name="Spring"/><br/>
-                        <AButton link = "summer" name="Summer"/><br/>
-                        <AButton link = "autumn" name="Autumn"/><br/>
-                        <AButton link = "winter" name="Winter"/><br/>
+                    <ul className="nav-list flex flex-col justify-evenly items-end w-28 ml-auto">
+                        <Button link = "spring" name="Spring"/>
+                        <Button link = "summer" name="Summer"/>
+                        <Button link = "autumn" name="Autumn"/>
+                        <Button link = "winter" name="Winter"/>
                     </ul>
-                </nav>
         )
 }
 export default Buttons

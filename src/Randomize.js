@@ -41,17 +41,16 @@ class Randomize extends React.Component{
     render(){
         return (
            
-            <div className="randomize">
+            <div className="randomize relative h-auto">
             <nav className="bg-black h-auto">
-            <div className="flex p-2.5 items-center justify-between">
+            <div className="hidden md:flex p-2.5 items-center justify-between">
                 {!this.state.sideActive?   <button onClick={this.open}><Hamburger/></button> 
                 : <button onClick= {this.close}><Close/></button>}
             <div>
-                <button className="hidden md:block text-white border border-white rounded px-4 py-1 outline-none hover:bg-white hover:text-black" onClick={this.handleRandom}>randomize</button> 
+                <button className="text-white border border-white rounded px-4 py-1 outline-none hover:bg-white hover:text-black" onClick={this.handleRandom}>randomize</button> 
             </div>
             </div>
                 </nav>
-                <button className="relative mt-8 block md:hidden text-black border border-black rounded px-4 py-1 outline-none hover:bg-black hover:text-white mx-auto" onClick={this.handleRandom}>randomize</button> 
                 {this.state.sideActive ? <SideBar /> : null}
                     <RandomContent name={this.state.data[this.state.index].name} content={this.state.data[this.state.index].content} url={this.state.data[this.state.index].imgPath}/>
             </div>
