@@ -1,7 +1,6 @@
 import React from "react"
-import { Hamburger } from "../icons/Hamburger"
-import { Close } from "../icons/Close"
 import { useSelector, useDispatch, connect } from "react-redux"
+import { Menu, X } from "react-feather"
 
 const selectToggleState = (state) => state.toggle
 const mapStateToProps = (state) => {
@@ -19,13 +18,13 @@ export default function Toggler() {
     if (!sideActive)
         return (
             <button onClick={toggle}>
-                <Hamburger />
+                <Menu color="white" strokeWidth="1.6" />
             </button>
         )
     else
         return (
             <button onClick={toggle}>
-                <Close />
+                <X color="white" strokeWidth="1.6" />
             </button>
         )
 }
