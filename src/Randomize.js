@@ -1,92 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 import "./style/index.css";
-import SideBar from "./SideBar";
+import SideBar from "./layouts/desktop/SideBar";
 import RandomContent from "./RandomContent";
-import { Hamburger } from "./icons/Hanburger";
-import { Close } from "./icons/Close";
-import { useDispatch, useSelector } from "react-redux";
-import UpNav from "./layouts/UpNav";
-import { connect } from 'react-redux';
+import { useSelector } from "react-redux";
+import UpNavMobile from "./layouts/mobile/UpNavMobile";
+import { connect } from "react-redux";
+import UpNavDesktop from "./layouts/desktop/UpNavDesktop";
 
-// class Randomize extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     let info = [];
-//     this.props.seasons.map((season, i) => {
-//       data[season].map((item, j) => {
-//         info.push(item);
-//       });
-//     });
-//     this.state = {
-//       index:
-//         Math.floor(Math.random() * Math.floor(info.length + 2)) % info.length,
-//       data: info,
-//       sideActive: false,
-//     };
-//     this.handleRandom = this.handleRandom.bind(this);
-//   }
-//   handleRandom = () => {
-//     this.setState({
-//       index:
-//         Math.floor(Math.random() * Math.floor(this.state.data.length)) %
-//         this.state.data.length,
-//     });
-//   };
-//   open = () => {
-//     this.setState({
-//       sideActive: true,
-//     });
-//   };
-//   close = () => {
-//     this.setState({
-//       sideActive: false,
-//     });
-//   };
-//   render() {
-
-//   }
-// }
-
-const selectPlaces = state => state.places
-const selectSideState = state => state.toggle
-const selectRandom = state => state.randomize
+const selectPlaces = (state) => state.places;
+const selectRandom = (state) => state.randomize;
+const selectToggleState = (state) => state.toggle;
 
 const mapStateToProps = (state) => {
   return {
-    randomize: state.randomize
-  }
-}
+    randomize: state.randomize,
+    toggle: state.toggle
+  };
+};
 const Randomize = (props) => {
-  const dispatch = useDispatch()
   const places = useSelector(selectPlaces);
-  const randomNumber = useSelector(selectRandom)
-  const [sideActive, setActive] = useState(useSelector(selectSideState) || false)
-  const handleOnRandomize = () => {
-    dispatch({type: 'randomize', length: places.length })
+  const randomNumber = useSelector(selectRandom);
+  const toggleState = useSelector(selectToggleState)
+  const renderSideBar = () => {
+    return toggleState ? <SideBar /> : null
   }
   return (
-    <div className="randomize relative h-auto">
-      <nav className="bg-black h-auto" id="tablet-desktop-menu">
-        <div className="flex p-2.5 items-center justify-between">
-          {!sideActive ? (
-            <button onClick={() => setActive(true)}>
-              <Hamburger />
-            </button>
-          ) : (
-            <button onClick={() => setActive(false)}>
-              <Close />
-            </button>
-          )}
-          <button
-            className="hidden md:block text-white border border-white rounded px-4 py-1 outline-none hover:bg-white hover:text-black"
-            onClick={handleOnRandomize}
-          >
-            randomize
-          </button>
-        </div>
-      </nav>
-      {sideActive ? <SideBar /> : null}
-      {sideActive ? <UpNav/> : null}
+    <div className="randomize relative  h-auto">
+      <UpNavMobile upper={places.length} toggle={toggleState}/>
+      <UpNavDesktop upper={places.length} />
+      {renderSideBar()}
       <RandomContent
         name={places[randomNumber].name}
         content={places[randomNumber].content}
@@ -95,6 +37,6 @@ const Randomize = (props) => {
     </div>
   );
 };
-connect(mapStateToProps)(Randomize)
+connect(mapStateToProps)(Randomize);
 
 export default Randomize;

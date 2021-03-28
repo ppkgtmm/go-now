@@ -4,7 +4,7 @@ export const Close = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="icon icon-tabler icon-tabler-x w-6 h-6"
+      className="icon icon-tabler icon-tabler-x w-6 h-6"
       width="44"
       height="44"
       viewBox="0 0 24 24"

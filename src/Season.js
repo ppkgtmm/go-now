@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import Content from './Content'
-import SideBar from "./SideBar"
+import SideBar from "./layouts/desktop/SideBar"
 import data from './data/data.json'
 class Season extends React.Component{
         constructor(props) {
