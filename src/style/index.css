@@ -1,17 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap");
 
-h1{
-    font-family: 'Noto Sans JP', sans-serif;
+h1 {
+    font-family: "Noto Sans JP", sans-serif;
 }
-a{
+a {
     font-size: 1rem;
 }
-button{
+button {
     outline: none !important;
 }
-img{
+img {
     max-height: 400px;
 }

@@ -1,14 +1,14 @@
 [
-  {
-    "path": "spring"
-  },
-  {
-    "path": "summer"
-  },
-  {
-    "path": "autumn"
-  },
-  {
-    "path": "winter"
-  }
+    {
+        "path": "spring"
+    },
+    {
+        "path": "summer"
+    },
+    {
+        "path": "autumn"
+    },
+    {
+        "path": "winter"
+    }
 ]
