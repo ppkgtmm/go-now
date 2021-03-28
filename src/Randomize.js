@@ -17,11 +17,7 @@ const Randomize = (props) => {
     const randomNumber = useSelector(selectRandom)
     return (
         <Layout upper={props.upper}>
-            <RandomContent
-                name={places[randomNumber].name}
-                content={places[randomNumber].content}
-                url={places[randomNumber].url}
-            />
+            <RandomContent data={places[randomNumber]} />
         </Layout>
     )
 }
