@@ -1,19 +1,18 @@
 import { get } from "lodash"
 import React from "react"
-import "./App.css"
-function RandomContent({ data }) {
+function Content({ data, style }) {
     return (
-        <div className="random-content h-auto relative mt-4">
+        <div className={get(style, "container", "")}>
             <img
-                className="m-auto"
                 src={get(data, "url", "")}
+                className="m-auto"
                 alt="not available"
             />
-            <div className="data w-8/12 m-auto">
+            <div className={get(style, "texrContainer", "")}>
                 <h3 className="text-center pt-4">{get(data, "name", "")} </h3>
                 <p className="text-justify pt-2"> {get(data, "content", "")}</p>
             </div>
         </div>
     )
 }
-export default RandomContent
+export default Content

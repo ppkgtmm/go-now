@@ -1,9 +1,8 @@
 import React from "react"
-import "./style/index.css"
-import RandomContent from "./RandomContent"
 import { useSelector } from "react-redux"
 import { connect } from "react-redux"
-import Layout from "./components/layouts/Layout"
+import Layout from "./layouts/Layout"
+import Content from "./Content"
 
 const selectRandom = (state) => state.randomize
 
@@ -15,9 +14,13 @@ const mapStateToProps = (state) => {
 const Randomize = (props) => {
     const places = props.places
     const randomNumber = useSelector(selectRandom)
+    const cardStyle = {
+        container: "random-content h-auto relative mt-4",
+        texrContainer: "data w-8/12 m-auto",
+    }
     return (
         <Layout upper={props.upper} isRandomPage={true}>
-            <RandomContent data={places[randomNumber]} />
+            <Content data={places[randomNumber]} style={cardStyle} />
         </Layout>
     )
 }
