@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "imgPath": "Aegean Islands, Greece.jpg",
+    "name": "Aegean Islands, Greece",
+    "content": "The Greek islands ignite the imagination and satisfy the soul with a history laced in mythical tales and told through ancient, sun-bleached ruins.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FAegean%20Islands%2C%20Greece.jpg?alt=media&token=1169b729-7129-4457-beab-88398e3d11c5",
+    "season": "spring"
+  },
+  {
+    "id": 4,
+    "imgPath": "Keukenhof Gardens.jpg",
+    "name": "Keukenhof Gardens",
+    "content": "Be sure to visit Keukenhof, where you will experience the gorgeous views of blooming Dutch tulips and other flowers for which Holland is famous.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FKeukenhof%20Gardens.jpg?alt=media&token=bddf906e-f140-45c7-882b-9cbb75a8d07c",
+    "season": "spring"
+  },
+  {
+    "id": 5,
+    "imgPath": "Lake Tahoe.jpg",
+    "name": "Lake Tahoe",
+    "content": "Lake Tahoe, the clear, cobalt blue lake tucked into the snowy Sierra Nevada mountain range, welcomes athletes, adventurers and casual travelers to its easygoing and pine-scented atmosphere.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FLake%20Tahoe.jpg?alt=media&token=e87594ea-2b7c-4a0d-9f17-2ecbff5528e7",
+    "season": "spring"
+  },
+  {
+    "id": 6,
+    "imgPath": "Las Vegas.jpg",
+    "name": "Las Vegas",
+    "content": "Las Vegas is an internationally renowned major resort city, known primarily for its shopping, fine dining, entertainment, and nightlife.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FLas%20Vegas.jpg?alt=media&token=b65ab95d-7cdf-4888-91bd-932463579b93",
+    "season": "spring"
+  },
+  {
+    "id": 7,
+    "imgPath": "Malta.png",
+    "name": "Malta",
+    "content": "Malta is more than just an archipelago in the middle of the Mediterranean Sea. It’s a hidden gem and definitely holds more adventures. It’s also famous having the best weather in the world",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FMalta.png?alt=media&token=30aa9fe3-9950-469c-a39e-b847adc36b09",
+    "season": "spring"
+  },
+  {
+    "id": 8,
+    "imgPath": "Marrakech, Morocco.jpg",
+    "name": "Marrakech, Morocco",
+    "content": "Experience the enticing labyrinth of centuries old souks, taste the flavors of a cuisine that is a unique mix of African, Middle Eastern and European, or enjoy lounging by a palm tree-lined swimming pool while soaking up the sun.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FMarrakech%2C%20Morocco.jpg?alt=media&token=d203e133-a30e-4df5-895a-06c18059cc3f",
+    "season": "spring"
+  },
+  {
+    "id": 10,
+    "imgPath": "Washington, DC.jpg",
+    "name": "Washington, DC",
+    "content": "Washington is the showcase of American arts, home to such prestigious venues as the National Theatre, the Kennedy Center and the Folger Theatre. The city hosts several adventurous small theaters that put on works by nontraditional writers. Busboys & Poets' open-mike nights provide another outlet for progressive new voices. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FWashington%2C%20DC.jpg?alt=media&token=a5cbbba1-43ef-4645-95f5-86b85b7a42e9",
+    "season": "spring"
+  },
+  {
+    "id": 2,
+    "imgPath": "barcelona.jpg",
+    "name": "Barcelona",
+    "content": "Barcelona is an enchanting seaside city with boundless culture, fabled architecture and a world-class drinking and dining scene.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2Fbarcelona.jpg?alt=media&token=e8f76adc-c635-4ef2-9384-ceba202cbd0a",
+    "season": "spring"
+  },
+  {
+    "id": 3,
+    "imgPath": "grand canyon.jpg",
+    "name": "Grand canyon",
+    "content": "As far as national parks go, the Grand Canyon is one of those places you can’t ignore. It’s big, it’s iconic, it never fails to exceed expectations.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2Fgrand%20canyon.jpg?alt=media&token=450cfed0-765b-4899-a4ea-eea8c521a184",
+    "season": "spring"
+  },
+  {
+    "id": 9,
+    "imgPath": "penang.jpg",
+    "name": "Penang",
+    "content": "If there's a more thrilling cocktail of Eastern cultures than in Penang, we've yet to find it. Penang has long served as the link between Asia’s great kingdoms and an important outlet to the markets of Europe and the Middle East. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2Fpenang.jpg?alt=media&token=7ed2e95b-b08e-487a-9386-c79d446ad8c0",
+    "season": "spring"
+  },
+  {
+    "id": 1,
+    "imgPath": "Anchorage, Alaska.jpg",
+    "name": "Anchorage, Alaska",
+    "content": "This is a city where bears are seen wandering bike paths, moose munch on neighborhood gardens, and locals pull salmon from a creek within blocks of hotels and office buildings.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FAnchorage%2C%20Alaska.jpg?alt=media&token=e967c8f9-87f2-4015-af0e-e71ff679a80a",
+    "season": "summer"
+  },
+  {
+    "id": 3,
+    "imgPath": "French Polynesia.jpg",
+    "name": "French Polynesia",
+    "content": "Sculpted by sky-piercing, moss-green peaks and lined with vivid turquoise lagoons, sultry French Polynesia is a place to take it slow and experience warm, laid-back island culture.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FFrench%20Polynesia.jpg?alt=media&token=fa5288c0-08e0-463a-86b6-8a6074ddb67d",
+    "season": "summer"
+  },
+  {
+    "id": 5,
+    "imgPath": "New York City.jpg",
+    "name": "New York City",
+    "content": "Epicenter of the arts, architectural darling, dining and shopping capital. Trendsetter. New York City wears many crowns, and spreads an irresistible feast for all.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FNew%20York%20City.jpg?alt=media&token=b3c35aad-2917-429c-9a11-1524b20ee6a9",
+    "season": "summer"
+  },
+  {
+    "id": 6,
+    "imgPath": "Seattle.jpg",
+    "name": "Seattle",
+    "content": "Blink and it’s changed: Seattle can be that ephemeral. It is a city that heralds innovation and nature; a city always marching toward the future. First time in Seattle? Make a beeline for its proverbial pantry: Pike Place Market. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FSeattle.jpg?alt=media&token=e1eb1b36-b464-43ed-a807-6131e2a3d92c",
+    "season": "summer"
+  },
+  {
+    "id": 7,
+    "imgPath": "Singapore.jpg",
+    "name": "Singapore",
+    "content": "Capitalising on its melting pot of cultures, Singapore is finally getting some spark, and is fast becoming one of Asia’s hit-list destinations. Don’t fret about finding a place to chow down, as each neighbourhood is home",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FSingapore.jpg?alt=media&token=c84f616f-c9f5-4d0f-8155-c2fa3cc450f7",
+    "season": "summer"
+  },
+  {
+    "id": 2,
+    "imgPath": "france.jpg",
+    "name": "France",
+    "content": "France seduces travellers with its unfalteringly familiar culture, woven around cafe terraces, village-square markets and lace-curtained bistros with their plat du jour (dish of the day) chalked on the board.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2Ffrance.jpg?alt=media&token=24acae1c-2970-40b4-b0c7-4fe00df833e4",
+    "season": "summer"
+  },
+  {
+    "id": 4,
+    "imgPath": "london.jpg",
+    "name": "London",
+    "content": "One of the world's most visited cities, London has something for everyone: from history and culture to fine food and good times. Immersed in history, London's rich seams of eye-opening antiquity are everywhere.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2Flondon.jpg?alt=media&token=79725f73-25b2-4ca3-9b06-db1673015138",
+    "season": "summer"
+  },
+  {
+    "id": 8,
+    "imgPath": "tasmania.jpg",
+    "name": "Tasmania",
+    "content": "Revelling in isolation, Tasmania is busting out with fab festivals and sensational food and drink, riding a tourism-fuelled economic boom that’s the envy of all Australia. From wine, beer and food festivals to hot-ticket arts and music events, Tasmania packs a lot of parties into the calendar.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2Ftasmania.jpg?alt=media&token=91b2b8bd-7b40-4eaa-94b9-8a0b224063fd",
+    "season": "summer"
+  },
+  {
+    "id": 1,
+    "imgPath": "Belfast.jpg",
+    "name": "Belfast",
+    "content": "A former industrial powerhouse with a troubled past, Belfast has pulled off a remarkable transformation into a hip party town. Belfast's nightlife is often loud, sometimes intoxicating and always fun. From traditional pubs to sleek cocktail bars to crowded clubs, the scene is generally friendly and accessible. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FBelfast.jpg?alt=media&token=416ef902-b15f-4b40-853b-609194cd50e2",
+    "season": "autumn"
+  },
+  {
+    "id": 2,
+    "imgPath": "Lisbon.jpg",
+    "name": "Lisbon",
+    "content": "Seven cinematic hillsides overlooking the Rio Tejo cradle Lisbon's postcard-perfect panorama of cobbled alleyways, ancient ruins and white-domed cathedrals – a captivating scene crafted over centuries.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FLisbon.jpg?alt=media&token=a63df64a-620d-4d82-a438-81e9d9f24f87",
+    "season": "autumn"
+  },
+  {
+    "id": 3,
+    "imgPath": "Mount Fuji.jpg",
+    "name": "Mount Fuji",
+    "content": "Of all Japan's iconic images, Mt Fuji (3776m) is the real deal. Admiration for the mountain appears in Japan's earliest recorded literature, dating from the 8th century. Fuji-san was granted Unesco World Heritage status in 2013; these days, around 300,000 people make the ascent every year.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FMount%20Fuji.jpg?alt=media&token=33c32405-abf9-43ab-bec1-658d0c34beda",
+    "season": "autumn"
+  },
+  {
+    "id": 4,
+    "imgPath": "Ontario.jpg",
+    "name": "Ontario",
+    "content": "The breathtaking four-seasonal palette of Ontario's vast wilderness, endless forests and abundant wildlife awaits. Whether you want to reconnect with nature or lose yourself in the excitement of the most multiculturally diverse and socially cohesive region on Earth, you've come to the right place. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FOntario.jpg?alt=media&token=aeccdb75-f159-4d26-8bfa-20fb80790451",
+    "season": "autumn"
+  },
+  {
+    "id": 5,
+    "imgPath": "Seville, Spain.jpg",
+    "name": "Seville, Spain",
+    "content": "Some cities blast you away, others slowly win you over. Seville disarms and seduces you. Its historic centre, lorded over by a colossal Gothic cathedral, is an intoxicating mix of resplendent Mudéjar palaces, baroque churches and winding medieval lanes.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FSeville%2C%20Spain.jpg?alt=media&token=2db82d4d-0042-49ac-98b4-46389e028541",
+    "season": "autumn"
+  },
+  {
+    "id": 6,
+    "imgPath": "Tel Aviv.jpg",
+    "name": "Tel Aviv",
+    "content": "Tel Aviv (meaning 'Hill of Spring' in Hebrew) has an air of perpetual renewal: flowers bloom, new restaurants open and parties. Modern, vibrant and cosmopolitan, Tel Aviv is characterised by an enterprising creative landscape. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FTel%20Aviv.jpg?alt=media&token=1005e9c0-00a1-49a3-a0b1-afcb50a08f6c",
+    "season": "autumn"
+  },
+  {
+    "id": 7,
+    "imgPath": "Tuscany.jpg",
+    "name": "Tuscany",
+    "content": "With its lyrical landscapes, world-class art and a superb cucina contadina (farmer's kitchen), the Tuscan experience is perfectly in symbiosis with the land. No land is more caught up with the fruits of its fertile earth than Tuscany",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FTuscany.jpg?alt=media&token=94af4c0d-a073-4180-b431-a46db775501b",
+    "season": "autumn"
+  },
+  {
+    "id": 8,
+    "imgPath": "Utrecht.jpg",
+    "name": "Utrecht",
+    "content": "It's hard not to fall in love with Utrecht, one of the Netherlands' oldest urban centres and for centuries its religious heart. Now a vibrant university city, the compact medieval core radiates out from the iconic 15th-century Domtoren, ringed by a loop of very pretty tree-lined canals.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FUtrecht.jpg?alt=media&token=e08953f4-88fe-4f45-94ce-845bf39ca1aa",
+    "season": "autumn"
+  },
+  {
+    "id": 1,
+    "imgPath": "Brazil.jpg",
+    "name": "Brazil",
+    "content": "One of the world's most captivating places, Brazil is a country of powdery white-sand beaches, verdant rainforests and wild, rhythm-filled metropolises. Brazil's attractions extend from frozen-in-time colonial towns to otherworldly landscapes of red-rock canyons, thundering waterfalls and coral-fringed tropical islands.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FBrazil.jpg?alt=media&token=a02c4b15-c7eb-4ac6-a311-8fc15792b6d1",
+    "season": "winter"
+  },
+  {
+    "id": 2,
+    "imgPath": "Chile.jpg",
+    "name": "Chile",
+    "content": "Chile is nature on a colossal scale, there's wonder in every detail and nature. For the traveler, it's mind-boggling to find this great wilderness so intact. et for now, Chile guards some of the most pristine parts of our planet, and they shouldn't be missed.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FChile.jpg?alt=media&token=90ab812e-76c7-4dd2-b1cd-3b9e29018e0c",
+    "season": "winter"
+  },
+  {
+    "id": 3,
+    "imgPath": "Colombia.jpg",
+    "name": "Columbia",
+    "content": "On your trip to Colombia, you can enjoy stunning cities like Bogotá, Medellín, Cali or Cartagena, delight in the colorful Barranquilla Carnival and soak up the natural beauty of the Sierra Nevada de Santa Marta mountain range and Tayrona National Park. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FColombia.jpg?alt=media&token=f0498af4-9679-42ce-b2be-cd271d37f681",
+    "season": "winter"
+  },
+  {
+    "id": 4,
+    "imgPath": "Dominican.jpg",
+    "name": "Dominican",
+    "content": "The Dominican Republic is one of the Caribbean's most geographically diverse countries, with stunning mountain scenery, desert scrublands, evocative colonial architecture and beaches galore.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FDominican.jpg?alt=media&token=5e80ab0c-2bea-4e71-aba3-ab7f4f3570dd",
+    "season": "winter"
+  },
+  {
+    "id": 5,
+    "imgPath": "Egypt.jpg",
+    "name": "Egypt",
+    "content": "Egypt welcomes you with its mighty Nile and magnificent monuments, the beguiling desert and lush delta, and with its long past and welcoming, story-loving people. With sand-covered tombs, austere pyramids and towering Pharaonic temples, Egypt brings out the explorer in all of us. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FEgypt.jpg?alt=media&token=05c4db5c-d415-4a43-b488-926a2248a258",
+    "season": "winter"
+  },
+  {
+    "id": 6,
+    "imgPath": "Indonesia.jpg",
+    "name": "Indonesia",
+    "content": "This beguiling nation of over 17,000 islands has massive potential for adventures. It's hard to beat Indonesia for the sheer range of experiences on offer. This intoxicating land offers some of the last great adventures on earth.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FIndonesia.jpg?alt=media&token=0dc6c6b8-090e-4091-8363-97d78b185134",
+    "season": "winter"
+  },
+  {
+    "id": 7,
+    "imgPath": "Jamaica.jpg",
+    "name": "Jamaica",
+    "content": "Jamaica is the Caribbean country that comes with its own soundtrack. Groove to its singular rhythm as you explore beyond the beaches and all-inclusives. Jamaica begins with crystalline waters flowing over gardens of coral, lapping onto soft sandy beaches, then rises past red soil and lush banana groves into sheer mountains.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FJamaica.jpg?alt=media&token=0d142092-bfa9-491e-a1b7-bb9a61c9e930",
+    "season": "winter"
+  },
+  {
+    "id": 8,
+    "imgPath": "Philippines.jpg",
+    "name": "Philippines",
+    "content": "The Philippines is defined by its emerald rice fields, teeming megacities, graffiti-splashed jeepneys, smouldering volcanoes, bug-eyed tarsiers, fuzzy water buffalo and smiling, happy-go-lucky people.",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FPhilippines.jpg?alt=media&token=de5c8a7d-a113-4640-aed4-d999bfa38a11",
+    "season": "winter"
+  },
+  {
+    "id": 9,
+    "imgPath": "South Africa.jpg",
+    "name": "South Africa",
+    "content": "Black-maned lions framed against Kalahari dunes; powdery beaches lapped by two oceans; star-studded desert skies; jagged, lush mountains – this truly is a country of astounding diversity. South Africa's ever-changing scenery is the perfect canvas on which to paint an activity-packed trip. ",
+    "url": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FSouth%20Africa.jpg?alt=media&token=6b35db07-7437-4023-8efb-c0b1f4c0284c",
+    "season": "winter"
+  }
+]
