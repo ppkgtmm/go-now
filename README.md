@@ -1,11 +1,16 @@
 # go now
 
-A simple web app help choosing places for trips in each season. Moreover places can be randomly selected.<br />
-\*\*\*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web app help choosing places for trips in each season. Users can find places to travel in each season or randomly pick a place.
+This project was built to help learning about front-end web development using javascript framework (React JS). There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The used data was manually collected from many sites. Lastly, the project is built using
 
-## Demo
+* Create React App
+* Redux
+* Tailwind CSS
+* Lodash
+* Feather Icons
+* Firebase admin
+* Netlify (deployment)
 
-https://go-now.herokuapp.com/
 
 ## Available Scripts
 
@@ -49,27 +54,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
