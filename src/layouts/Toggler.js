@@ -1,5 +1,5 @@
 import React from "react";
-import { Hamburger } from "../icons/Hanburger";
+import { Hamburger } from "../icons/Hamburger";
 import { Close } from "../icons/Close";
 import { useSelector, useDispatch, connect } from "react-redux";
 

@@ -8,7 +8,7 @@ export default function UpNavDesktop(props) {
         dispatch({ type: "randomize", length: props.upper });
       };
     return (
-        <nav className="hidden md:block bg-black h-auto">
+        <header className="sticky top-0 z-50 hidden md:block bg-black w-full h-auto mt-0">
         <div className="flex p-2.5 items-center justify-between">
             <Toggler/>
             <button
@@ -18,6 +18,6 @@ export default function UpNavDesktop(props) {
             randomize
           </button>
         </div>
-      </nav>
+      </header>
     )
 }

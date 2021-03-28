@@ -6,7 +6,7 @@ export default function UpNavMobile(props) {
     return props.toggle ? <Buttons upper={props.upper}/> : null
   }
   return (
-    <nav className="md:hidden bg-black h-auto">
+    <nav className="sticky top-0 z-50 md:hidden bg-black h-auto">
       <div className="flex flex-col p-2.5 items-center">
         <div className="self-start">
         <Toggler />
