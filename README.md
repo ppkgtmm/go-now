@@ -1,7 +1,8 @@
 # go now
 
 A simple web app help choosing places for trips in each season. Users can find places to travel in each season or randomly pick a place.
-This project was built to help learning about front-end web development using javascript framework (React JS). There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The used data was manually collected from many sites. Lastly, the project is built using
+This project was built to help learning about front-end web development using javascript framework (React JS). There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The used data was manually collected from many sites. 
+I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
 
 * Create React App
 * Redux
