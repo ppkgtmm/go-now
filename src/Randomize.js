@@ -3,7 +3,7 @@ import "./style/index.css"
 import RandomContent from "./RandomContent"
 import { useSelector } from "react-redux"
 import { connect } from "react-redux"
-import Layout from "./layouts/Layout"
+import Layout from "./components/layouts/Layout"
 
 const selectRandom = (state) => state.randomize
 
@@ -16,7 +16,7 @@ const Randomize = (props) => {
     const places = props.places
     const randomNumber = useSelector(selectRandom)
     return (
-        <Layout upper={props.upper}>
+        <Layout upper={props.upper} isRandomPage={true}>
             <RandomContent data={places[randomNumber]} />
         </Layout>
     )

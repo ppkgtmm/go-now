@@ -1,7 +1,7 @@
 import { createStore } from "redux"
 import rootReducer from "../reducers/index"
-import data from "../data/data.json"
-import { getRandomNumber } from "../utils"
+import data from "../../data/data.json"
+import { getRandomNumber } from "../../utils"
 
 const preloadedState = {
     places: data,

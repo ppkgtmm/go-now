@@ -1,4 +1,4 @@
-import { get, noop } from "lodash"
+import { get } from "lodash"
 import React from "react"
 function Button(props) {
     const defaultClass =
@@ -7,7 +7,6 @@ function Button(props) {
         <a
             className={get(props, "buttonClass", defaultClass)}
             href={get(props, "link", "#")}
-            onClick={get(props, "onClick", noop())}
         >
             {props.children}
         </a>

@@ -20,8 +20,15 @@ const Layout = (props) => {
     }
     return (
         <div className="relative h-auto">
-            <UpNavMobile upper={props.upper} toggle={toggleState} />
-            <UpNavDesktop upper={props.upper} />
+            <UpNavMobile
+                upper={props.upper}
+                toggle={toggleState}
+                isRandomPage={props.isRandomPage}
+            />
+            <UpNavDesktop
+                upper={props.upper}
+                isRandomPage={props.isRandomPage}
+            />
             {renderSideBar()}
             {props.children}
         </div>
