@@ -16,7 +16,7 @@ const Randomize = (props) => {
     const randomNumber = useSelector(selectRandom)
     const cardStyle = {
         container: "random-content h-auto relative mt-4",
-        texrContainer: "data w-8/12 m-auto",
+        textContainer: "data w-8/12 m-auto",
     }
     return (
         <Layout upper={props.upper} isRandomPage={true}>
