@@ -1,9 +1,10 @@
 # go now
 
 A simple web app help choosing places for trips in each season. Moreover places can be randomly selected.<br />
-***This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+\*\*\*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
+
 https://go-now.herokuapp.com/
 
 ## Available Scripts

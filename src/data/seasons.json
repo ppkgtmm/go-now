@@ -1,0 +1,18 @@
+[
+    {
+        "path": "/spring",
+        "season": "spring"
+    },
+    {
+        "path": "/summer",
+        "season": "summer"
+    },
+    {
+        "path": "/autumn",
+        "season": "autumn"
+    },
+    {
+        "path": "/winter",
+        "season": "winter"
+    }
+]
