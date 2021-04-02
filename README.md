@@ -1,11 +1,26 @@
 # go now
 
-A simple web app help choosing places for trips in each season. Moreover places can be randomly selected.<br />
-\*\*\*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple web app help choosing places for trips in each season. Users can find places to travel in each season or randomly pick a place.
+This project was built to help learning about front-end responsive web development using javascript framework (React JS). There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The data used was manually collected from many sites. 
+I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
 
-## Demo
+* Create React App
+* Redux
+* Tailwind CSS
+* Lodash
+* Feather Icons
+* Firebase admin
+* Netlify (deployment)
 
-https://go-now.herokuapp.com/
+# Responsiveness Demo
+## iPhone 5/SE
+<div display="flex"> 
+<img height="400" src="https://user-images.githubusercontent.com/57994731/112763768-129c5f80-9030-11eb-8fff-3c61a31ce06c.png" /> 
+<img height="400" src="https://user-images.githubusercontent.com/57994731/112763855-6a3acb00-9030-11eb-9ffd-28cd0cc9ead7.png" />
+<img height="400" src="https://user-images.githubusercontent.com/57994731/112763996-f220d500-9030-11eb-976c-329af512bc63.png" />
+</div> 
+
+
 
 ## Available Scripts
 
@@ -49,27 +64,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
