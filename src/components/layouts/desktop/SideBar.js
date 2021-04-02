@@ -6,7 +6,7 @@ export default function SideBar() {
             <div className="side-content px-8">
                 <h1 className="text-white text-4xl">Travel Now</h1>
                 <h2 className="text-emerald-200 text-lg mt-4">
-                    simple blog help planning vacation
+                    simple site help planning vacation
                 </h2>
                 <Buttons />
             </div>

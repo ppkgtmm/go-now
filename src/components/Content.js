@@ -12,7 +12,7 @@ function Content({ data, style }) {
                 <h3 className="text-center content-header">
                     {get(data, "name", "")}
                 </h3>
-                <p className="text-justify content">
+                <p className="text-justify content text-sm">
                     {get(data, "content", "")}
                 </p>
             </div>

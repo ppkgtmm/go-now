@@ -51,7 +51,11 @@ img {
 
 @media only screen and (min-height: 712px) {
     .random-content {
-        margin-top: auto;
-        margin-block: 15vh;
+        margin-top: 15vh;
+    }
+    @media only screen and (max-height: 912px) {
+        .random-content {
+            margin-top: 8vh;
+        }
     }
 }

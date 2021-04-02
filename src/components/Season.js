@@ -4,7 +4,7 @@ import Content from "./Content"
 export default function Season(props) {
     const cardStyle = {
         container: "w-72 m-2.5 rounded-lg shadow-lg overflow-hidden",
-        textContainer: "px-2 py-4",
+        textContainer: "p-4",
     }
     return (
         <Layout>
