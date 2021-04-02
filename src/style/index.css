@@ -19,6 +19,7 @@ button {
     outline: none !important;
 }
 img {
+    width: auto;
     max-height: 400px;
 }
 
@@ -33,7 +34,9 @@ img {
         padding-top: 2rem;
     }
     a,
-    p {
+    .paragraph,
+    .clickable {
+        line-height: normal;
         font-size: 4vw;
     }
     svg {
@@ -42,7 +45,7 @@ img {
     }
     .content-header,
     .content {
-        padding-top: 0.5vw;
+        padding-top: 1vw;
     }
 }
 .side-content {
@@ -51,7 +54,7 @@ img {
 
 @media only screen and (min-height: 712px) {
     .random-content {
-        margin-top: 15vh;
+        margin-top: 12vh;
     }
     @media only screen and (max-height: 912px) {
         .random-content {

@@ -1,7 +1,9 @@
+import { Action } from "../types"
+
 export function sidebarToggleReducer(
-    state = false,
-    action = { type: "unknown" }
-) {
+    state: boolean = false,
+    action: Action = { type: "unknown" }
+): boolean {
     switch (action.type) {
         case "toggle":
             return !state
