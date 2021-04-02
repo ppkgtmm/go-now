@@ -15,12 +15,13 @@ const Randomize = (props) => {
     const places = props.places
     const randomNumber = useSelector(selectRandom)
     const cardStyle = {
-        container: "random-content h-auto relative mt-4",
+        container: "h-auto relative mt-4 random-content",
         textContainer: "data w-8/12 m-auto",
     }
     return (
         <Layout upper={props.upper} isRandomPage={true}>
             <Content data={places[randomNumber]} style={cardStyle} />
+            <div className="mt-10 "></div>
         </Layout>
     )
 }

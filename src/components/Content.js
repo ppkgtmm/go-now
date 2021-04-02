@@ -5,15 +5,14 @@ function Content({ data, style }) {
         <div className={get(style, "container", "")}>
             <img
                 src={get(data, "url", "")}
-                className="m-auto"
+                className="mx-auto block max-h-400px md:min-h-400px"
                 alt="not available"
             />
             <div className={get(style, "textContainer", "")}>
                 <h3 className="text-center content-header">
-                    {get(data, "name", "")}{" "}
+                    {get(data, "name", "")}
                 </h3>
                 <p className="text-justify content">
-                    {" "}
                     {get(data, "content", "")}
                 </p>
             </div>

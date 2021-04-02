@@ -12,7 +12,7 @@ export default function UpNavDesktop(props) {
     const renderRandomButton = () => {
         const isRandomPage = get(props, "isRandomPage", false)
         const buttonClass =
-            "hidden md:block text-white border border-white rounded px-4 py-1 outline-none hover:bg-white hover:text-black"
+            "hidden md:block text-white border border-white rounded px-8 py-1 outline-none hover:bg-white hover:text-black"
         const config = { styleClass: buttonClass }
         if (isRandomPage)
             return (

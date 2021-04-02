@@ -19,7 +19,7 @@ const Layout = (props) => {
         return toggleState ? <SideBar /> : null
     }
     return (
-        <div className="relative h-auto">
+        <div className="relative h-full overflow-y-visible">
             <UpNavMobile
                 upper={props.upper}
                 toggle={toggleState}
