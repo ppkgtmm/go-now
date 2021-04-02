@@ -1,12 +1,13 @@
 import { createStore } from "redux"
 import rootReducer from "../reducers/index"
 import data from "../../data/data.json"
-import { getRandomNumber } from "../../utils"
+import { getRandomNumber } from "../../functions"
+import { State } from "../types"
 
-const preloadedState = {
+const preloadedState: State = {
     places: data,
     toggle: false,
-    randomize: getRandomNumber(data.length),
+    randomNumber: getRandomNumber(data.length),
 }
 const store = createStore(rootReducer, preloadedState)
 export default store

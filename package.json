@@ -12,6 +12,7 @@
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.4.0",
         "@testing-library/user-event": "^7.2.1",
+        "classnames": "^2.3.0",
         "firebase-admin": "^9.5.0",
         "lodash": "^4.17.21",
         "npm": "^6.14.11",
@@ -24,7 +25,8 @@
         "react-test-renderer": "^16.13.1",
         "reactjs-popup": "^1.5.0",
         "redux": "^4.0.5",
-        "then": "0.0.1"
+        "then": "0.0.1",
+        "typescript": "^4.2.3"
     },
     "scripts": {
         "start": "craco start --watch",
@@ -43,7 +45,7 @@
         }
     },
     "lint-staged": {
-        "*.{js,json,css,scss,html,md}": "npm run format"
+        "*.{js,ts,jsx,tsx,json,css,scss,html,md}": "npm run format"
     },
     "eslintConfig": {
         "extends": "react-app"
@@ -62,6 +64,9 @@
     },
     "devDependencies": {
         "@tailwindcss/postcss7-compat": "^2.0.4",
+        "@types/classnames": "^2.2.11",
+        "@types/lodash": "^4.14.168",
+        "@types/react-router-dom": "^5.1.7",
         "autoprefixer": "^9.8.6",
         "eslint": "^7.23.0",
         "gh-pages": "^2.2.0",

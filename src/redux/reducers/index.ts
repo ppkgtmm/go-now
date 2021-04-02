@@ -6,6 +6,6 @@ import { combineReducers } from "redux"
 const rootReducer = combineReducers({
     places: placeReducer,
     toggle: sidebarToggleReducer,
-    randomize: randomizeReducer,
+    randomNumber: randomizeReducer,
 })
 export default rootReducer

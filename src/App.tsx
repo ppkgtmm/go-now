@@ -2,16 +2,11 @@ import React from "react"
 import { BrowserRouter as Router, Route } from "react-router-dom"
 import Season from "./components/Season"
 import Randomize from "./components/Randomize"
-import seasons from "./data/seasons.json"
 import { connect, useSelector } from "react-redux"
-import { getFilteredSeasonData } from "./utils"
+import seasons from "./data/seasons.json"
+import { getFilteredSeasonData } from "./functions"
+import { mapPlaceToProps, selectPlaces } from "./functions"
 
-const selectPlaces = (state) => state.places
-const mapStateToProps = (state) => {
-    return {
-        places: state.places,
-    }
-}
 function App() {
     const places = useSelector(selectPlaces)
     return (
@@ -23,10 +18,7 @@ function App() {
                 {seasons.map((season, index) => (
                     <Route exact path={season.path} key={index}>
                         <Season
-                            places={getFilteredSeasonData(
-                                places,
-                                season.season
-                            )}
+                            places={getFilteredSeasonData(places, season.name)}
                         />
                     </Route>
                 ))}
@@ -34,5 +26,5 @@ function App() {
         </div>
     )
 }
-connect(mapStateToProps)(App)
+connect(mapPlaceToProps)(App)
 export default App

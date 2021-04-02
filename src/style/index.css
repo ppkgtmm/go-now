@@ -3,8 +3,14 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap");
 
-h1 {
+h1,
+h3 {
     font-family: "Noto Sans JP", sans-serif;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.025rem;
 }
 a {
     font-size: 1rem;
@@ -13,5 +19,46 @@ button {
     outline: none !important;
 }
 img {
+    width: auto;
     max-height: 400px;
+}
+
+.content-header,
+.content {
+    padding-top: 0.75rem;
+}
+
+@media only screen and (max-width: 300px) {
+    h3 {
+        font-size: 6vw;
+        padding-top: 2rem;
+    }
+    a,
+    .paragraph,
+    .clickable {
+        line-height: normal;
+        font-size: 4vw;
+    }
+    svg {
+        height: 1rem;
+        width: 1rem;
+    }
+    .content-header,
+    .content {
+        padding-top: 1vw;
+    }
+}
+.side-content {
+    margin-block: 20vh;
+}
+
+@media only screen and (min-height: 712px) {
+    .random-content {
+        margin-top: 12vh;
+    }
+    @media only screen and (max-height: 912px) {
+        .random-content {
+            margin-top: 8vh;
+        }
+    }
 }

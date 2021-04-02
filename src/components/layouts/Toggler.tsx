@@ -1,16 +1,10 @@
 import React from "react"
-import { useSelector, useDispatch, connect } from "react-redux"
+import { connect, useDispatch, useSelector } from "react-redux"
 import { Menu, X } from "react-feather"
-
-const selectToggleState = (state) => state.toggle
-const mapStateToProps = (state) => {
-    return {
-        toggle: state.toggle,
-    }
-}
+import { mapToggleToProps, selectToggle } from "../../functions"
 
 export default function Toggler() {
-    const sideActive = useSelector(selectToggleState)
+    const sideActive = useSelector(selectToggle)
     const dispatch = useDispatch()
     const toggle = () => {
         dispatch({ type: "toggle" })
@@ -28,4 +22,4 @@ export default function Toggler() {
             </button>
         )
 }
-connect(mapStateToProps)(Toggler)
+connect(mapToggleToProps)(Toggler)
