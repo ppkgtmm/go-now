@@ -9,8 +9,13 @@ function Content({ data, style }) {
                 alt="not available"
             />
             <div className={get(style, "textContainer", "")}>
-                <h3 className="text-center pt-4">{get(data, "name", "")} </h3>
-                <p className="text-justify pt-2"> {get(data, "content", "")}</p>
+                <h3 className="text-center content-header">
+                    {get(data, "name", "")}{" "}
+                </h3>
+                <p className="text-justify content">
+                    {" "}
+                    {get(data, "content", "")}
+                </p>
             </div>
         </div>
     )
