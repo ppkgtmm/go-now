@@ -1,4 +1,4 @@
-import { Action, Place } from "../types"
+import { Action, Place } from "../../types"
 
 export function placeReducer(
     state: Place[] = [],

@@ -1,5 +1,5 @@
 import { filter } from "lodash"
-import { Place, State } from "./redux/types"
+import { Place, State } from "./types"
 
 export const mapPlaceToProps = (state: State) => {
     return {

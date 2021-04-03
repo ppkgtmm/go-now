@@ -1,8 +1,8 @@
 import React from "react"
-import Layout from "./layouts/Layout"
-import Content from "./Content"
-import { Place } from "../redux/types"
-import { mapRandomNumberToProps, selectRandom } from "../functions"
+import Layout from "../layouts/Layout"
+import Content from "../Content"
+import { Place } from "../../types"
+import { mapRandomNumberToProps, selectRandom } from "../../functions"
 import { connect, useSelector } from "react-redux"
 
 type Props = {

@@ -28,3 +28,8 @@ export type State = {
     toggle: boolean
     randomNumber: number
 }
+
+export interface SeasonButton {
+    name: string
+    path: string
+}

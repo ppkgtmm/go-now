@@ -1,6 +1,6 @@
 import React from "react"
-import Clickable from "../Clickable"
-import Toggler from "../Toggler"
+import { Clickable } from "../../button"
+import { Toggler } from "../../button"
 import { useDispatch } from "react-redux"
 type Props = {
     isRandomPage: boolean

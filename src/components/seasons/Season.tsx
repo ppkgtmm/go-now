@@ -1,7 +1,7 @@
 import React from "react"
-import Layout from "./layouts/Layout"
-import Content from "./Content"
-import { Place } from "../redux/types"
+import Layout from "../layouts/Layout"
+import Content from "../Content"
+import { Place } from "../../types"
 type Props = {
     places: Place[]
 }

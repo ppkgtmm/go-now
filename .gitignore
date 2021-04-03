@@ -25,3 +25,6 @@ yarn-error.log*
 /.husky
 /.config
 .vscode
+
+src/img/
+src/data/old/

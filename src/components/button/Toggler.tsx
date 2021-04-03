@@ -4,6 +4,10 @@ import { Menu, X } from "react-feather"
 import { mapToggleToProps, selectToggle } from "../../functions"
 
 export default function Toggler() {
+    const style = {
+        color: "white",
+        strokeWidth: "1.6",
+    }
     const sideActive = useSelector(selectToggle)
     const dispatch = useDispatch()
     const toggle = () => {
@@ -12,14 +16,14 @@ export default function Toggler() {
     if (!sideActive)
         return (
             <button onClick={toggle}>
-                <Menu color="white" strokeWidth="1.6" />
+                <Menu {...style} />
             </button>
         )
-    else
-        return (
-            <button onClick={toggle}>
-                <X color="white" strokeWidth="1.6" />
-            </button>
-        )
+
+    return (
+        <button onClick={toggle}>
+            <X {...style} />
+        </button>
+    )
 }
 connect(mapToggleToProps)(Toggler)

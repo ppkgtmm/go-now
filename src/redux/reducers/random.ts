@@ -1,5 +1,5 @@
 import { getRandomNumber } from "../../functions"
-import { RandomReducerAction } from "../types"
+import { RandomReducerAction } from "../../types"
 export function randomizeReducer(
     state: number = 0,
     action: RandomReducerAction = { type: "unknown", length: 0 }

@@ -1,8 +1,8 @@
 import React from "react"
 import { useDispatch } from "react-redux"
-import Button from "../../button/Button"
-import Clickable from "../Clickable"
-import { SeasonButton } from "../desktop/types"
+import { Button } from "../../button"
+import { Clickable } from "../../button"
+import { SeasonButton } from "../../../types"
 
 type Props = {
     isRandomPage: boolean

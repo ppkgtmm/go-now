@@ -1,7 +1,7 @@
 import React from "react"
-import Toggler from "../Toggler"
+import { Toggler } from "../../button"
 import Buttons from "./UpNavButtons"
-import seasonData from "../../../data/seasons.json"
+import { seasons as seasonData } from "../../../data"
 
 type Props = {
     isRandomPage: boolean

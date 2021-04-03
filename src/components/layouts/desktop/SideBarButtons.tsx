@@ -1,6 +1,6 @@
 import React from "react"
-import Button from "../../button/Button"
-import { SeasonButton } from "./types"
+import { Button } from "../../button"
+import { SeasonButton } from "../../../types"
 
 type Props = {
     buttonsData: SeasonButton[]

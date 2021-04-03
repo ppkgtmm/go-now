@@ -1,6 +1,6 @@
 import React from "react"
 import Buttons from "./SideBarButtons"
-import seasonsData from "../../../data/seasons.json"
+import { seasons as seasonsData } from "../../../data"
 
 export default function SideBar() {
     return (

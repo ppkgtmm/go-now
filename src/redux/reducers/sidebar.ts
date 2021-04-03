@@ -1,4 +1,4 @@
-import { Action } from "../types"
+import { Action } from "../../types"
 
 export function sidebarToggleReducer(
     state: boolean = false,

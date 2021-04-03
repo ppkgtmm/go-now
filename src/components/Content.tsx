@@ -1,5 +1,5 @@
 import React from "react"
-import { Place } from "../redux/types"
+import { Place } from "../types"
 type Props = {
     data: Place
     style?: {
