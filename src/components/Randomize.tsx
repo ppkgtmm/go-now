@@ -13,7 +13,7 @@ const Randomize = (props: Props) => {
     const places = props.places
     const randomNumber = useSelector(selectRandom)
     const cardStyle = {
-        container: "h-auto relative mt-4 random-content",
+        container: "h-auto relative mt-6 random-content",
         textContainer: "data w-8/12 m-auto",
     }
     return (
