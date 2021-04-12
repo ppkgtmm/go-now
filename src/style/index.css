@@ -52,13 +52,23 @@ img {
     margin-block: 20vh;
 }
 
-@media only screen and (min-height: 712px) {
+.random-content {
+    margin-top: 8vh;
+}
+
+@media only screen and (min-width: 768px) {
     .random-content {
         margin-top: 12vh;
     }
-    @media only screen and (max-height: 912px) {
-        .random-content {
-            margin-top: 8vh;
-        }
+}
+
+@media only screen and (max-height: 712px) {
+    .random-content {
+        margin-top: 1rem;
+    }
+}
+@media only screen and (min-height: 912px) {
+    .random-content {
+        margin-top: 14vh;
     }
 }
