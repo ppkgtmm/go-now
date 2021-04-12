@@ -17,9 +17,20 @@ I started the project and completed it in the first half of 2020 but found that 
 ## iPhone 5/SE
 
 <p align="center"> 
-<img height="400" src="https://user-images.githubusercontent.com/57994731/112763768-129c5f80-9030-11eb-8fff-3c61a31ce06c.png" /> 
+
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114385525-565ba100-9bba-11eb-82df-f094c79261b7.png" /> 
 <img height="400" src="https://user-images.githubusercontent.com/57994731/112763855-6a3acb00-9030-11eb-9ffd-28cd0cc9ead7.png" />
-<img height="400" src="https://user-images.githubusercontent.com/57994731/112763996-f220d500-9030-11eb-976c-329af512bc63.png" />
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114385488-4d6acf80-9bba-11eb-896a-1a06034b3381.png" />
+
+</p>
+
+## Laptop with HiDPI screen
+<p align="center"> 
+
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386182-16e18480-9bbb-11eb-8a6a-dbbab98f2854.png" /> 
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386340-4c866d80-9bbb-11eb-9b9b-2e51835d011f.png" />
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386220-23fe7380-9bbb-11eb-85cc-4f6712c5112e.png" />
+
 </p>
 
 ## Available Scripts
