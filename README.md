@@ -24,6 +24,15 @@ I started the project and completed it in the first half of 2020 but found that 
 
 </p>
 
+## Laptop with HiDPI screen
+<p align="center"> 
+
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386182-16e18480-9bbb-11eb-8a6a-dbbab98f2854.png" /> 
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386340-4c866d80-9bbb-11eb-9b9b-2e51835d011f.png" />
+<img height="400" src="https://user-images.githubusercontent.com/57994731/114386220-23fe7380-9bbb-11eb-85cc-4f6712c5112e.png" />
+
+</p>
+
 ## Available Scripts
 
 In the project directory, you can run:
