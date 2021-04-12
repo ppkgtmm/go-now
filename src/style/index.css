@@ -51,20 +51,23 @@ img {
 .side-content {
     margin-block: 20vh;
 }
-
 .random-content {
-    margin-top: 8vh;
+    margin-top: 4vh;
 }
-
 @media only screen and (min-width: 768px) {
     .random-content {
         margin-top: 12vh;
     }
 }
 
-@media only screen and (max-height: 712px) {
+@media only screen and (max-height: 711px) {
     .random-content {
         margin-top: 1rem;
+    }
+    @media only screen and (min-width: 768px) {
+        .random-content {
+            margin-top: 8vh;
+        }
     }
 }
 @media only screen and (min-height: 912px) {
