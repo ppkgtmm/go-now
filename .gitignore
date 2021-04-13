@@ -28,3 +28,4 @@ yarn-error.log*
 
 src/img/
 src/data/old/
+src/serviceWorker.js
