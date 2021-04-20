@@ -1,3 +1,5 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/40975ddfcde05e1d87a9/maintainability)](https://codeclimate.com/github/ppkgtmm/go-now/maintainability)
+
 # go now
 
 A simple web app help choosing places for trips in each season. Users can find places to travel in each season or randomly pick a place.
