@@ -72,7 +72,7 @@
         "gh-pages": "^2.2.0",
         "husky": "^5.2.0",
         "lint-staged": "^10.5.4",
-        "postcss": "^7.0.35",
+        "postcss": "^8.2.10",
         "pretty-quick": "^3.1.0",
         "simple-git-hooks": "^2.2.0",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
