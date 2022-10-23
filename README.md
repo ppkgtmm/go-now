@@ -30,7 +30,7 @@ A simple web application acting as a recommended travel destination catalog. Use
 
 <img width="700" src="https://user-images.githubusercontent.com/57994731/114386182-16e18480-9bbb-11eb-8a6a-dbbab98f2854.png" /> 
 <img width="700" src="https://user-images.githubusercontent.com/57994731/114386340-4c866d80-9bbb-11eb-9b9b-2e51835d011f.png" />
-<img width="700" src="https://user-images.githubusercontent.com/57994731/197393869-4e72d711-7333-4087-b090-2f62c74fe602.png" />
+<img width="700" src="https://user-images.githubusercontent.com/57994731/197394099-5f120aaf-8415-405b-9d07-44ccc6250411.png" />
 
 </p>
 
