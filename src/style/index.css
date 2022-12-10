@@ -52,7 +52,7 @@ img {
     margin-top: 20vh;
     margin-bottom: 20vh;
 }
-.random-content {
+/* .random-content {
     margin-top: 4vh;
 }
 @media only screen and (min-width: 768px) {
@@ -75,7 +75,7 @@ img {
     .random-content {
         margin-top: 14vh;
     }
-}
+} */
 
 @keyframes slide {
     0% {
@@ -86,5 +86,5 @@ img {
     }
 }
 .slide {
-    animation: slide 700ms ease-in-out;
+    animation: slide 600ms ease-in-out;
 }
