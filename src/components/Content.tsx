@@ -19,7 +19,7 @@ function Content(props: Props) {
                 <h3 className="text-center content-header">
                     {props.data.name}
                 </h3>
-                <p className="text-justify content text-sm paragraph">
+                <p className="text-center content text-sm paragraph">
                     {props.data.content}
                 </p>
             </div>
