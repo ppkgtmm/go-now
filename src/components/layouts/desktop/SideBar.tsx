@@ -1,9 +1,9 @@
-import React, { useState } from "react"
+import React from "react"
 import Buttons from "./SideBarButtons"
 import { seasons as seasonsData } from "../../../data"
 import { animate, toggle } from '../../../types'
 import { connect, } from "react-redux"
-import { mapToggleToProps, selectToggle } from "../../../functions"
+import { mapToggleToProps } from "../../../functions"
 type Props = {
     toggle: toggle
 }
