@@ -12,14 +12,14 @@ function Content(props: Props) {
         <div className={props.style?.container || ""}>
             <img
                 src={props.data.url}
-                className="mx-auto block"
+                className="mx-auto block lg:mx-0"
                 alt="not available"
             />
             <div className={props.style?.textContainer || ""}>
-                <h3 className="text-center content-header">
+                <h3 className="text-center lg:text-left text-2xl content-header uppercase">
                     {props.data.name}
                 </h3>
-                <p className="text-center content text-sm paragraph">
+                <p className="text-center lg:text-left content paragraph">
                     {props.data.content}
                 </p>
             </div>

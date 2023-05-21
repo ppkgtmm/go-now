@@ -2,15 +2,16 @@ import React from "react"
 import { Toggler } from "../../button"
 import Buttons from "./UpNavButtons"
 import { seasons as seasonData } from "../../../data"
+import { toggle } from "../../../types"
 
 type Props = {
     isRandomPage: boolean
     upper: number
-    toggle: boolean
+    toggle: toggle
 }
 export default function UpNavMobile(props: Props) {
     const renderButtonMenu = () => {
-        return props.toggle ? (
+        return props.toggle === toggle.SHOW ? (
             <Buttons
                 upper={props.upper}
                 isRandomPage={props.isRandomPage}

@@ -12,12 +12,15 @@ h3 {
     font-weight: 500;
     font-size: 1.025rem;
 }
+
 a {
     font-size: 1rem;
 }
+
 button {
     outline: none !important;
 }
+
 img {
     width: auto;
     max-height: 400px;
@@ -33,28 +36,33 @@ img {
         font-size: 6vw;
         padding-top: 2rem;
     }
+
     a,
     .paragraph,
     .clickable {
         line-height: normal;
         font-size: 4vw;
     }
+
     svg {
         height: 1rem;
         width: 1rem;
     }
+
     .content-header,
     .content {
         padding-top: 1vw;
     }
 }
+
 .side-content {
     margin-top: 20vh;
     margin-bottom: 20vh;
 }
-.random-content {
+
+/* .random-content {
     margin-top: 4vh;
-}
+} */
 /* @media only screen and (min-width: 768px) {
     .random-content {
         margin-top: 12vh;
@@ -77,14 +85,36 @@ img {
     }
 } */
 
-@keyframes slide {
+@keyframes slide-in {
     0% {
         left: -50%;
     }
+
     100% {
         left: 0%;
     }
 }
-.slide {
-    animation: slide 600ms ease-in-out;
+
+.slide-in {
+    animation: slide-in 800ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-out {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+.slide-out {
+    animation: slide-out 800ms;
+    animation-fill-mode: forwards;
+}
+
+.x-button {
+    padding: 15px;
 }

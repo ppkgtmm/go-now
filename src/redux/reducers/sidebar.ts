@@ -1,12 +1,16 @@
-import { Action } from "../../types"
+import { Action, toggle } from "../../types"
 
 export function sidebarToggleReducer(
-    state: boolean = false,
+    state: toggle = toggle.INIT,
     action: Action = { type: "unknown" }
-): boolean {
+): toggle {
     switch (action.type) {
         case "toggle":
-            return !state
+            return toggle.SHOW
+        case "untoggle":
+            return toggle.HIDE
+        case "reset":
+            return state === toggle.HIDE ? toggle.INIT : state
         default:
             return state
     }

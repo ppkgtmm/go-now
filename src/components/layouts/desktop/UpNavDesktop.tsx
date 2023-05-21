@@ -1,10 +1,11 @@
 import React from "react"
+import { toggle } from "../../../types"
 import { Toggler } from "../../button"
 import RandomButton from "../../button/RandomButton"
 type Props = {
     isRandomPage: boolean
     upper: number
-    toggle: boolean
+    toggle: toggle
 }
 export default function UpNavDesktop(props: Props) {
     const buttonClass =

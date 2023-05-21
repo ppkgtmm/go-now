@@ -14,7 +14,7 @@ export type RandomReducerAction = {
     type: string
     length: number
 }
-export type SideBarReducer = (state: boolean, action: Action) => boolean
+export type SideBarReducer = (state: toggle, action: Action) => toggle
 
 export type PlaceReducer = (state: Place[], action: Action) => Place[]
 
@@ -25,11 +25,27 @@ export type RandomReducer = (
 
 export type State = {
     places: Place[]
-    toggle: boolean
+    toggle: toggle
     randomNumber: number
 }
 
 export interface SeasonButton {
     name: string
     path: string
+}
+
+export enum animate {
+    IN = 'slide-in',
+    OUT = 'slide-out'
+}
+
+export enum toggle {
+    SHOW = 'show',
+    HIDE = 'hide',
+    INIT = 'init'
+
+}
+export const iconStyle = {
+    color: "white",
+    strokeWidth: "1.6",
 }

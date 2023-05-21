@@ -1,5 +1,5 @@
 import { filter } from "lodash"
-import { Place, State } from "./types"
+import { Place, State, toggle } from "./types"
 
 export const mapPlaceToProps = (state: State) => {
     return {
@@ -22,7 +22,7 @@ export const selectPlaces = (state: State): Place[] => state.places
 
 export const selectRandom = (state: State): number => state.randomNumber
 
-export const selectToggle = (state: State): boolean => state.toggle
+export const selectToggle = (state: State): toggle => state.toggle
 
 export const getRandomNumber = (upper: number): number => {
     return (Math.floor(Math.random() * upper) + 2) % upper
