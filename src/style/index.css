@@ -63,13 +63,14 @@ img {
 /* .random-content {
     margin-top: 4vh;
 } */
-/* @media only screen and (min-width: 768px) {
-    .random-content {
-        margin-top: 12vh;
+
+@media only screen and (max-width: 300px) {
+    .season {
+        width: 95%;
     }
 }
 
-@media only screen and (max-height: 711px) {
+/*@media only screen and (max-height: 711px) {
     .random-content {
         margin-top: 1rem;
     }

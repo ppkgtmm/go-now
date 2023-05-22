@@ -8,13 +8,13 @@ type Props = {
 export default function Season(props: Props) {
     const cardStyle = {
         container:
-            "w-64 md:w-72 rounded-md md:rounded-lg shadow-lg overflow-hidden md:hover:shadow-xl text-sm my-4 md:my-0",
+            "w-72 rounded-md md:rounded-lg shadow-lg overflow-hidden md:hover:shadow-xl text-sm my-4 mx-auto md:m-0 season",
         textContainer: "p-4",
     }
     return (
         <Layout upper={0} isRandomPage={false}>
             <div className="mt-4 mb-6">
-                <div className="flex flex-wrap items-stretch justify-center mx-auto max-w-screen-xl gap-4">
+                <div className="container mx-auto md:max-w-screen-sm lg:max-w-screen-lg md:grid grid-cols-2 lg:grid-cols-3 items-stretch justify-items-center md:gap-x-2 md:gap-y-8 lg:gap-x-8">
                     {(props.places || []).map((place, index) => (
                         <Content data={place} key={index} style={cardStyle} />
                     ))}

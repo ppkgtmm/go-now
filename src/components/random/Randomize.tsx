@@ -14,7 +14,7 @@ const Randomize = (props: Props) => {
     const randomNumber = useSelector(selectRandom)
     const cardStyle = {
         container: "px-2 mt-5 md:mt-6 lg:mt-20 flex flex-col lg:flex-row lg:mx-32 gap-x-10",
-        textContainer: "px-2 md:px-10 mx-auto lg:mx-0 lg:px-0",
+        textContainer: "px-2 md:px-10 mx-auto lg:mx-0 lg:px-0 text-center lg:text-left",
     }
     return (
         <Layout isRandomPage={true} upper={places.length}>
