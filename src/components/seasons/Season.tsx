@@ -12,8 +12,8 @@ export default function Season(props: Props) {
         textContainer: "p-4",
     }
     return (
-        <Layout upper={0} isRandomPage={false}>
-            <div className="mt-4 mb-6">
+        <Layout isHomePage={false}>
+            <div className="mt-20 mb-6">
                 <div className="container mx-auto md:max-w-screen-sm lg:max-w-screen-lg md:grid grid-cols-2 lg:grid-cols-3 items-stretch justify-items-center md:gap-x-2 md:gap-y-8 lg:gap-x-8">
                     {(props.places || []).map((place, index) => (
                         <Content data={place} key={index} style={cardStyle} />

@@ -9,7 +9,7 @@ type Props = {
 }
 function Content(props: Props) {
     return (
-        <div className={props.style?.container || ""}>
+        <a className={props.style?.container || ""} href={`https://www.tripadvisor.com/Search?q=${props.data.name}`} target='_blank' rel="noreferrer">
             <img
                 src={props.data.url}
                 className="mx-auto block lg:mx-0"
@@ -23,7 +23,7 @@ function Content(props: Props) {
                     {props.data.content}
                 </p>
             </div>
-        </div>
+        </a>
     )
 }
 export default Content

@@ -2,7 +2,7 @@
 
 # go now
 
-A simple web application acting as a recommended travel destination catalog. Users can find places to travel in each season or randomly pick a place with randomization feature. This project was built to help learning about responsive front-end web development using React JS. There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The data, displayed in the website, was manually collected from various sites. I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
+A vacation venue catalog where travel destinations are categorized by season their best to be visited in. Alternatively, there is destination randomization feature to help come up with faster. This project was built to help learning about responsive front-end web development using React JS. There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The data, displayed in the website, was manually collected from various sites. I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
 
 -   Create React App
 -   Redux

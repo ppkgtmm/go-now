@@ -26,7 +26,6 @@ export type RandomReducer = (
 export type State = {
     places: Place[]
     toggle: toggle
-    randomNumber: number
 }
 
 export interface SeasonButton {

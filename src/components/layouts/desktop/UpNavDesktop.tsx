@@ -1,20 +1,20 @@
 import React from "react"
-import { toggle } from "../../../types"
+// import { toggle } from "../../../types"
 import { Toggler } from "../../button"
-import RandomButton from "../../button/RandomButton"
+import HomeButton from "../../button/HomeButton"
 type Props = {
-    isRandomPage: boolean
-    upper: number
-    toggle: toggle
+    isHomePage: boolean
+    // upper: number
+    // toggle: toggle
 }
 export default function UpNavDesktop(props: Props) {
     const buttonClass =
-        "hidden md:block text-white border border-white rounded px-8 py-1 outline-none hover:bg-white hover:text-black"
+        "hidden md:block border border-white text-white rounded hover:bg-white hover:text-black px-8 py-1 leading-6"
     return (
-        <header className="sticky top-0 z-50 hidden md:block bg-black w-full h-auto mt-0">
+        <header className="fixed top-0 z-50 hidden md:block bg-black w-full h-auto mt-0">
             <div className="flex p-2.5 items-center justify-between">
                 <Toggler />
-                <RandomButton {...props} buttonClass={buttonClass} />
+                <HomeButton {...props} buttonClass={buttonClass} text='Home' />
             </div>
         </header>
     )

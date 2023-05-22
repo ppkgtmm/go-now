@@ -1,11 +1,11 @@
 import React from "react"
 import { Button } from "../../button"
 import { SeasonButton } from "../../../types"
-import RandomButton from "../../button/RandomButton"
+import HomeButton from "../../button/HomeButton"
 
 type Props = {
-    isRandomPage: boolean
-    upper: number
+    isHomePage: boolean
+    // upper: number
     buttonData: SeasonButton[]
 }
 
@@ -22,7 +22,7 @@ export default function Buttons(props: Props) {
                 </li>
             ))}
             <li className="block">
-                <RandomButton {...props} buttonClass={buttonClass} />
+                <HomeButton {...props} buttonClass={buttonClass} text='to home' />
             </li>
         </ul>
     )

@@ -7,8 +7,8 @@ import { mapToggleToProps, selectToggle } from "../../functions"
 import { toggle } from "../../types"
 
 type Props = {
-    upper: number
-    isRandomPage: boolean
+    // upper: number
+    isHomePage: boolean
     children: React.ReactNode
 }
 const Layout = (props: Props) => {
@@ -16,7 +16,7 @@ const Layout = (props: Props) => {
     return (
         <div className="relative h-full overflow-y-visible">
             <UpNavMobile toggle={toggleState} {...props} />
-            <UpNavDesktop toggle={toggleState} {...props} />
+            <UpNavDesktop {...props} />
             {toggleState === toggle.INIT ? null : <SideBar toggle={toggleState} />}
             {props.children}
         </div>

@@ -5,22 +5,22 @@ import { seasons as seasonData } from "../../../data"
 import { toggle } from "../../../types"
 
 type Props = {
-    isRandomPage: boolean
-    upper: number
+    isHomePage: boolean
+    // upper: number
     toggle: toggle
 }
 export default function UpNavMobile(props: Props) {
     const renderButtonMenu = () => {
         return props.toggle === toggle.SHOW ? (
             <Buttons
-                upper={props.upper}
-                isRandomPage={props.isRandomPage}
+                // upper={props.upper}
+                isHomePage={props.isHomePage}
                 buttonData={seasonData}
             />
         ) : null
     }
     return (
-        <nav className="sticky top-0 z-50 md:hidden bg-black h-auto">
+        <nav className="fixed top-0 w-full md:hidden bg-black h-auto">
             <div className="flex flex-col p-2.5 items-center">
                 <div className="self-start">
                     <Toggler />

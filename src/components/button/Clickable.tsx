@@ -1,28 +1,21 @@
 import React from "react"
-import classNames from "classnames"
-import { noop } from "lodash"
+// import classNames from "classnames"
+// import { noop } from "lodash"
 type Props = {
     config: {
-        redirectable: boolean
+        isHomePage: boolean
         styleClass?: string
         path?: string
-        clickHandler?: () => void
     }
     children: React.ReactNode
 }
 export default function Clickable(props: Props) {
-    const redirectable = props.config.redirectable
+    const isHomePage = props.config.isHomePage
     const styleClass = props.config.styleClass || ""
     const path = props.config.path || "#"
-    if (!redirectable)
-        return (
-            <button
-                className={classNames(styleClass, "clickable")}
-                onClick={props.config.clickHandler || noop}
-            >
-                {props.children}
-            </button>
-        )
+    if (isHomePage) {
+        return null
+    }
     return (
         <a className={styleClass} href={path}>
             {props.children}
