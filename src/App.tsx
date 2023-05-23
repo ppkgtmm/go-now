@@ -31,11 +31,6 @@ function App() {
                                     <p className="bg-white absolute bottom-0 w-full h-8 season-name">
                                         {season.name}
                                     </p>
-                                    {/* <div className="absolute top-0 w-full h-full backdrop-filter backdrop-blur-sm bg-white/30 group-hover:backdrop-blur-lg" >
-                                    </div>
-                                    <span className="absolute top-0 flex flex-col justify-center w-full h-full md:text-2x z-50">{season.name}</span>
-                                    <img src={season.img_path} className="object-cover w-full h-full" /> */}
-
                                 </a>
                             })
                             }
