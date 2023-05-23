@@ -16,15 +16,26 @@ function App() {
         <div className="App">
             <Router basename="/">
                 <Route exact path="/">
-                    <div className="mx-6 md:mx-20 lg:mx-auto flex flex-col py-12 md:py-28 bg-white min-h-screen">
-                        <p className="mx-auto text-center text-4xl md:text-5xl uppercase font-bold">Welcome !</p>
-                        <span className="mx-auto md:w-7/12 text-center md:text-xl mt-8 break-words align-middle">you are at <b className="font-semibold bg-lime-300 rounded-xl px-3">go-now</b>, a <b className="font-semibold bg-cyan-200 rounded-xl px-3">vacation venue catalogue</b> with travel destinations categorized by season their best to be visited in</span>
-                        <span className="text-center mt-8 md:mt-16 text-xl mx-auto max-w-xs font-light">choose a <b className="font-medium italic">season</b> to continue</span>
-                        {/* <span className="md:hidden text-center mt-8 md:mt-16 text-xl font-medium">pick a season below to continue</span> */}
-                        <div className="md:grid grid-cols-2 md:mx-auto gap-x-4 justify-items-stretch mt-2 md:mt-6">
+                    <div className="mx-3 md:mx-20 lg:mx-auto flex flex-col py-12 md:py-16 min-h-screen">
+                        <p className="mx-auto text-center text-4xl md:text-5xl uppercase font-semibold">Welcome</p>
+                        <span className="text-center mt-10 md:mt-16 text-xl mx-auto max-w-xs md:max-w-none font-light">find vacation venue by <i className="font-bold">season</i> their best to be visited in</span>
+                        <div className="md:grid grid-cols-2 md:mx-auto gap-4 justify-items-stretch mt-4 md:mt-6">
                             {seasons.map((season) => {
-                                return <a key={season.name} href={season.path} className="block mx-auto text-center my-3 w-52 md:w-72 py-2 px-4 rounded-md bg-white hover:bg-black hover:text-white border border-black text-lg md:text-xl font-light">
-                                    {season.name}
+                                return <a key={season.name} href={season.path} className="relative overflow-hidden block text-center w-48 h-48 rounded-md md:rounded-lg shadow-lg md:hover:shadow-xl my-4 mx-auto md:m-0 season">
+                                    <img
+                                        src={season.img_path}
+                                        className="mx-auto block lg:mx-0"
+                                        alt="not available"
+                                    />
+
+                                    <p className="bg-white absolute bottom-0 w-full h-8 season-name">
+                                        {season.name}
+                                    </p>
+                                    {/* <div className="absolute top-0 w-full h-full backdrop-filter backdrop-blur-sm bg-white/30 group-hover:backdrop-blur-lg" >
+                                    </div>
+                                    <span className="absolute top-0 flex flex-col justify-center w-full h-full md:text-2x z-50">{season.name}</span>
+                                    <img src={season.img_path} className="object-cover w-full h-full" /> */}
+
                                 </a>
                             })
                             }
@@ -33,7 +44,7 @@ function App() {
                 </Route>
                 <Seasons places={places} seasons={seasons} />
             </Router>
-        </div>
+        </div >
     )
 }
 connect(mapPlaceToProps)(App)
