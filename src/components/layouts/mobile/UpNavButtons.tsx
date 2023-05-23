@@ -5,7 +5,6 @@ import HomeButton from "../../button/HomeButton"
 
 type Props = {
     isHomePage: boolean
-    // upper: number
     buttonData: SeasonButton[]
 }
 

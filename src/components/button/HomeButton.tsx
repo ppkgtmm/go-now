@@ -5,7 +5,6 @@ type Props = {
     isHomePage: boolean
     buttonClass: string
     text: string
-    // upper: number
     path?: string
 
 }

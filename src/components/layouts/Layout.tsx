@@ -7,7 +7,6 @@ import { mapToggleToProps, selectToggle } from "../../functions"
 import { toggle } from "../../types"
 
 type Props = {
-    // upper: number
     isHomePage: boolean
     children: React.ReactNode
 }

@@ -6,14 +6,12 @@ import { toggle } from "../../../types"
 
 type Props = {
     isHomePage: boolean
-    // upper: number
     toggle: toggle
 }
 export default function UpNavMobile(props: Props) {
     const renderButtonMenu = () => {
         return props.toggle === toggle.SHOW ? (
             <Buttons
-                // upper={props.upper}
                 isHomePage={props.isHomePage}
                 buttonData={seasonData}
             />

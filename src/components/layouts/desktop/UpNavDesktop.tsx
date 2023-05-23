@@ -1,11 +1,8 @@
 import React from "react"
-// import { toggle } from "../../../types"
 import { Toggler } from "../../button"
 import HomeButton from "../../button/HomeButton"
 type Props = {
     isHomePage: boolean
-    // upper: number
-    // toggle: toggle
 }
 export default function UpNavDesktop(props: Props) {
     const buttonClass =
