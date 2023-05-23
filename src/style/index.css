@@ -75,6 +75,12 @@ img {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .card {
+        max-width: 90%;
+    }
+}
+
 /*@media only screen and (max-height: 711px) {
     .random-content {
         margin-top: 1rem;
