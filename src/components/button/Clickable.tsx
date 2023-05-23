@@ -1,6 +1,4 @@
 import React from "react"
-// import classNames from "classnames"
-// import { noop } from "lodash"
 type Props = {
     config: {
         isHomePage: boolean

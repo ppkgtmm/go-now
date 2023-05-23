@@ -14,7 +14,7 @@ export default function UpNavDesktop(props: Props) {
         <header className="fixed top-0 z-50 hidden md:block bg-black w-full h-auto mt-0">
             <div className="flex p-2.5 items-center justify-between">
                 <Toggler />
-                <HomeButton {...props} buttonClass={buttonClass} text='Home' />
+                <HomeButton {...props} buttonClass={buttonClass} text='home' />
             </div>
         </header>
     )

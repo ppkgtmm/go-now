@@ -1,4 +1,4 @@
-import { filter } from "lodash"
+import { filter, sampleSize } from "lodash"
 import { Place, State, toggle } from "./types"
 
 export const mapPlaceToProps = (state: State) => {
@@ -19,4 +19,8 @@ export const selectToggle = (state: State): toggle => state.toggle
 
 export function getFilteredSeasonData(allData: Place[], season: string) {
     return filter(allData, { season })
+}
+
+export function sampleSeasonData(allData: Place[], n: number) {
+    return sampleSize(allData, n)
 }

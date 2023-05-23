@@ -13,11 +13,11 @@ export default function SideBar(props: Props) {
         animateIt = animate.IN
     }
     return (
-        <div className={`hidden md:block bg-black overflow-y-scroll fixed top-0 z-0 md:w-72 h-full ${animateIt}`}>
+        <div className={`sidebar hidden md:block bg-black overflow-y-scroll fixed top-0 z-0 h-full ${animateIt}`}>
             <div className="mt-36 px-8">
                 <h1 className="text-white text-4xl">Go Now</h1>
-                <h2 className="text-teal-200 text-lg mt-4">
-                    catalogue to help choose vacation venue
+                <h2 className="text-lg mt-4 font-light subheading">
+                    catalogue to help you find vacation venue
                 </h2>
                 <Buttons buttonsData={seasonsData} />
             </div>

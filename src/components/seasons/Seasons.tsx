@@ -7,7 +7,8 @@ import Season from "./Season"
 
 type Props = {
     places: Place[]
-    seasons: SeasonButton[]
+    seasons: SeasonButton[],
+    isHomePage: boolean
 }
 
 export default function Seasons(props: Props) {
@@ -20,6 +21,7 @@ export default function Seasons(props: Props) {
                             props.places,
                             season.name
                         )}
+                        isHomePage={props.isHomePage}
                     />
                 </Route>
             ))}

@@ -1,11 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:500&display=swap");
 
-h1,
-h3 {
-    font-family: "Noto Sans JP", sans-serif;
+.subheading {
+    color: #64e4eb;
+}
+
+.sidebar {
+    width: 17rem;
 }
 
 h3 {
