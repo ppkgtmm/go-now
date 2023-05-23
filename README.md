@@ -2,7 +2,7 @@
 
 # go now
 
-A vacation venue catalog where travel destinations are categorized by season their best to be visited in. Alternatively, there is destination randomization feature to help come up with faster. This project was built to help learning about responsive front-end web development using React JS. There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The data, displayed in the website, was manually collected from various sites. I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
+A vacation venue catalog where travel destinations are categorized by season their best to be visited in. This project was built to help learning about front-end web development using React JS. There were some back-end work like connecteing to a cloud storage to retrive image metadata (URL) involved. The data, displayed in the website, was manually collected from various online sources. I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
 
 -   Create React App
 -   Redux
@@ -11,29 +11,6 @@ A vacation venue catalog where travel destinations are categorized by season the
 -   Feather Icons
 -   Firebase admin
 -   Netlify (deployment)
-
-# Responsiveness Demo
-
-## iPhone 5/SE
-
-<p align="center">
-
-<img height="400" src="https://user-images.githubusercontent.com/57994731/114385525-565ba100-9bba-11eb-82df-f094c79261b7.png" /> 
-<img height="400" src="https://user-images.githubusercontent.com/57994731/112763855-6a3acb00-9030-11eb-9ffd-28cd0cc9ead7.png" />
-<img height="400" src="https://user-images.githubusercontent.com/57994731/114385488-4d6acf80-9bba-11eb-896a-1a06034b3381.png" />
-
-</p>
-
-## Laptop with HiDPI screen
-
-<p align="center">
-
-<img width="700" src="https://user-images.githubusercontent.com/57994731/114386182-16e18480-9bbb-11eb-8a6a-dbbab98f2854.png" /> 
-<img width="700" src="https://user-images.githubusercontent.com/57994731/114386340-4c866d80-9bbb-11eb-9b9b-2e51835d011f.png" />
-<img width="700" src="https://user-images.githubusercontent.com/57994731/197405402-6f86731f-133a-4cbd-b4c9-d09a171ca83e.png" />
-
-
-</p>
 
 ## Available Scripts
 
