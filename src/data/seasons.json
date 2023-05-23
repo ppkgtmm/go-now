@@ -1,18 +1,22 @@
 [
     {
         "path": "/spring",
-        "name": "spring"
+        "name": "spring",
+        "img_path": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/spring%2FLake%20Tahoe.jpg?alt=media&token=e87594ea-2b7c-4a0d-9f17-2ecbff5528e7"
     },
     {
         "path": "/summer",
-        "name": "summer"
+        "name": "summer",
+        "img_path": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/summer%2FAnchorage%2C%20Alaska.jpg?alt=media&token=e967c8f9-87f2-4015-af0e-e71ff679a80a"
     },
     {
         "path": "/autumn",
-        "name": "autumn"
+        "name": "autumn",
+        "img_path": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/autumn%2FOntario.jpg?alt=media&token=aeccdb75-f159-4d26-8bfa-20fb80790451"
     },
     {
         "path": "/winter",
-        "name": "winter"
+        "name": "winter",
+        "img_path": "https://firebasestorage.googleapis.com/v0/b/travel-guide-cd95e.appspot.com/o/winter%2FEgypt.jpg?alt=media&token=05c4db5c-d415-4a43-b488-926a2248a258"
     }
 ]
