@@ -81,22 +81,6 @@ img {
     }
 }
 
-/*@media only screen and (max-height: 711px) {
-    .random-content {
-        margin-top: 1rem;
-    }
-    @media only screen and (min-width: 768px) {
-        .random-content {
-            margin-top: 8vh;
-        }
-    }
-}
-@media only screen and (min-height: 912px) {
-    .random-content {
-        margin-top: 14vh;
-    }
-} */
-
 @keyframes slide-in {
     0% {
         left: -50%;
