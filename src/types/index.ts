@@ -10,18 +10,9 @@ export type Action = {
     type: string
 }
 
-export type RandomReducerAction = {
-    type: string
-    length: number
-}
 export type SideBarReducer = (state: toggle, action: Action) => toggle
 
 export type PlaceReducer = (state: Place[], action: Action) => Place[]
-
-export type RandomReducer = (
-    state: number,
-    action: RandomReducerAction
-) => number
 
 export type State = {
     places: Place[]
