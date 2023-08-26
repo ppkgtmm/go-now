@@ -21,7 +21,11 @@ export default function Buttons(props: Props) {
                 </li>
             ))}
             <li className="block w-full">
-                <HomeButton {...props} buttonClass={buttonClass} text='to home' />
+                <HomeButton
+                    {...props}
+                    buttonClass={buttonClass}
+                    text="to home"
+                />
             </li>
         </ul>
     )

@@ -7,7 +7,7 @@ import Season from "./Season"
 
 type Props = {
     places: Place[]
-    seasons: SeasonButton[],
+    seasons: SeasonButton[]
     isHomePage: boolean
 }
 

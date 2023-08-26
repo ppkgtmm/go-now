@@ -6,7 +6,6 @@ type Props = {
     buttonClass: string
     text: string
     path?: string
-
 }
 export default function HomeButton(props: Props) {
     const isHomePage = props.isHomePage

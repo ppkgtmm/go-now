@@ -16,7 +16,9 @@ const Layout = (props: Props) => {
         <div className="relative h-full overflow-y-visible">
             <UpNavMobile toggle={toggleState} {...props} />
             <UpNavDesktop {...props} />
-            {toggleState === toggle.INIT ? null : <SideBar toggle={toggleState} />}
+            {toggleState === toggle.INIT ? null : (
+                <SideBar toggle={toggleState} />
+            )}
             {props.children}
         </div>
     )

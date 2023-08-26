@@ -25,15 +25,14 @@ export interface SeasonButton {
 }
 
 export enum animate {
-    IN = 'slide-in',
-    OUT = 'slide-out'
+    IN = "slide-in",
+    OUT = "slide-out",
 }
 
 export enum toggle {
-    SHOW = 'show',
-    HIDE = 'hide',
-    INIT = 'init'
-
+    SHOW = "show",
+    HIDE = "hide",
+    INIT = "init",
 }
 export const iconStyle = {
     color: "white",

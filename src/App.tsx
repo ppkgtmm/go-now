@@ -12,7 +12,7 @@ function App() {
     const dispatch = useDispatch()
     React.useEffect(() => {
         const handleResize = () => dispatch({ type: "reset" })
-        window.addEventListener('resize', handleResize)
+        window.addEventListener("resize", handleResize)
     })
     return (
         <div className="App">
@@ -25,7 +25,7 @@ function App() {
                 </Route>
                 <Seasons places={places} seasons={seasons} isHomePage={false} />
             </Router>
-        </div >
+        </div>
     )
 }
 connect(mapPlaceToProps)(App)

@@ -9,7 +9,12 @@ type Props = {
 }
 function Content(props: Props) {
     return (
-        <a className={props.style?.container || ""} href={`https://www.tripadvisor.com/Search?q=${props.data.name}`} target='_blank' rel="noreferrer">
+        <a
+            className={props.style?.container || ""}
+            href={`https://www.tripadvisor.com/Search?q=${props.data.name}`}
+            target="_blank"
+            rel="noreferrer"
+        >
             <img
                 src={props.data.url}
                 className="mx-auto block lg:mx-0"
@@ -19,9 +24,7 @@ function Content(props: Props) {
                 <h3 className="text-xl md:text-2xl content-header uppercase">
                     {props.data.name}
                 </h3>
-                <p className="content paragraph">
-                    {props.data.content}
-                </p>
+                <p className="content paragraph">{props.data.content}</p>
             </div>
         </a>
     )

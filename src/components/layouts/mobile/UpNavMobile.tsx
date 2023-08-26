@@ -11,10 +11,7 @@ type Props = {
 export default function UpNavMobile(props: Props) {
     const renderButtonMenu = () => {
         return props.toggle === toggle.SHOW ? (
-            <Buttons
-                isHomePage={props.isHomePage}
-                buttonData={seasonData}
-            />
+            <Buttons isHomePage={props.isHomePage} buttonData={seasonData} />
         ) : null
     }
     return (

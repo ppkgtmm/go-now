@@ -12,7 +12,6 @@ export const mapToggleToProps = (state: State) => {
     }
 }
 
-
 export const selectPlaces = (state: State): Place[] => state.places
 
 export const selectToggle = (state: State): toggle => state.toggle

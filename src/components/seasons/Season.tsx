@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout"
 import Content from "../Content"
 import { Place } from "../../types"
 type Props = {
-    places: Place[],
+    places: Place[]
     isHomePage: boolean
 }
 export default function Season(props: Props) {
