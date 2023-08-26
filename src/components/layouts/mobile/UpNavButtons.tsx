@@ -20,7 +20,7 @@ export default function Buttons(props: Props) {
                     </Button>
                 </li>
             ))}
-            <li className="block">
+            <li className="block w-full">
                 <HomeButton {...props} buttonClass={buttonClass} text='to home' />
             </li>
         </ul>
