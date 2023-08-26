@@ -20,9 +20,8 @@ export default function Buttons(props: Props) {
                     </Button>
                 </li>
             ))}
-            <li className="block w-full">
+            <li className={"w-full" + (props.isHomePage ? " hidden" : "")}>
                 <HomeButton
-                    {...props}
                     buttonClass={buttonClass}
                     text="to home"
                 />
