@@ -12,7 +12,7 @@ export default function Clickable(props: Props) {
     const styleClass = props.config.styleClass || ""
     const path = props.config.path || "#"
     if (isHomePage) {
-        return <div className={styleClass} style={{visibility: "hidden"}}>
+        return <div className={styleClass} style={{display: "none"}}>
             {props.children}
         </div>
     }
