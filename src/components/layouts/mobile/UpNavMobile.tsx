@@ -19,7 +19,7 @@ export default function UpNavMobile(props: Props) {
     }
     return (
         <nav className="fixed top-0 w-full md:hidden bg-black h-auto">
-            <div className="flex flex-col p-2.5 items-center">
+            <div className="flex flex-col p-2.5 items-center min-h-[34px]">
                 <div className="self-start">
                     <Toggler />
                 </div>
