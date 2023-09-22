@@ -1,5 +1,3 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/40975ddfcde05e1d87a9/maintainability)](https://codeclimate.com/github/ppkgtmm/go-now/maintainability)
-
 # go now
 
 A vacation venue catalogue where travel destinations are categorized by season they are best to be visited in. This project mainly focus on front-end web development using React JS. There were some back-end work like connecting to a cloud storage to retrive image metadata (URL) involved. The data, displayed in the website, was manually collected from various online sources. I started the project and completed it in the first half of 2020 but found that there were many things I could improve. So, I decided to refactor the project and use helping tools to save time and effort. The latest version of project is built using
